@@ -1,0 +1,12 @@
+{
+  "framework": null,
+  "buildCommand": "SHA=$(echo \"${VERCEL_GIT_COMMIT_SHA:-local}\" | cut -c1-7); sed -i \"s/__COMMIT__/$SHA/g\" index.html menu.html",
+  "outputDirectory": ".",
+  "redirects": [
+    { "source": "/menu_es.html", "destination": "/menu.html", "permanent": true },
+    { "source": "/menu_ca.html", "destination": "/menu.html", "permanent": true },
+    { "source": "/menu_en.html", "destination": "/menu.html", "permanent": true },
+    { "source": "/menu_en_new.html", "destination": "/menu.html", "permanent": true },
+    { "source": "/Default.aspx", "destination": "/", "permanent": true }
+  ]
+}

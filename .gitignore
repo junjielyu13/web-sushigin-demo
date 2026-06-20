@@ -1,0 +1,7 @@
+.DS_Store
+*.psd
+.claude/
+node_modules/
+.vercel/
+# large local-only backup of original gallery photos (not used by the site)
+images/gallery/_original/

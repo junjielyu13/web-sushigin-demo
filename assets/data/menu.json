@@ -1,0 +1,3222 @@
+{
+  "categories": [
+    {
+      "id": "starters",
+      "name": {
+        "es": "Entrantes",
+        "ca": "Entrants",
+        "en": "Starters"
+      }
+    },
+    {
+      "id": "dimsum",
+      "name": {
+        "es": "Dim Sum",
+        "ca": "Dim Sum",
+        "en": "Dim Sum"
+      }
+    },
+    {
+      "id": "fried",
+      "name": {
+        "es": "Fritos",
+        "ca": "Fregides",
+        "en": "Fried"
+      }
+    },
+    {
+      "id": "teppanyaki",
+      "name": {
+        "es": "A la plancha",
+        "ca": "A la planxa",
+        "en": "Grilled / Teppanyaki"
+      }
+    },
+    {
+      "id": "wok",
+      "name": {
+        "es": "Wok",
+        "ca": "Wok",
+        "en": "Wok"
+      }
+    },
+    {
+      "id": "drypot",
+      "name": {
+        "es": "Olla seca y wok",
+        "ca": "Olla seca i wok",
+        "en": "Dry pot & wok"
+      }
+    },
+    {
+      "id": "uramaki",
+      "name": {
+        "es": "Uramaki",
+        "ca": "Uramaki",
+        "en": "Uramaki rolls"
+      }
+    },
+    {
+      "id": "maki",
+      "name": {
+        "es": "Maki",
+        "ca": "Maki",
+        "en": "Maki"
+      }
+    },
+    {
+      "id": "nigiri",
+      "name": {
+        "es": "Nigiri",
+        "ca": "Nigiri",
+        "en": "Nigiri"
+      }
+    },
+    {
+      "id": "gunkan",
+      "name": {
+        "es": "Gunkan y tartar",
+        "ca": "Gunkan i tàrtar",
+        "en": "Gunkan & tartare"
+      }
+    },
+    {
+      "id": "chirashi",
+      "name": {
+        "es": "Tartar y chirashi",
+        "ca": "Tàrtar i chirashi",
+        "en": "Tartare & chirashi"
+      }
+    },
+    {
+      "id": "tataki",
+      "name": {
+        "es": "Tataki y sashimi",
+        "ca": "Tataki i sashimi",
+        "en": "Tataki & sashimi"
+      }
+    },
+    {
+      "id": "poke",
+      "name": {
+        "es": "Poke bowl y tacos",
+        "ca": "Poke bowl i tacos",
+        "en": "Poke bowl & tacos"
+      }
+    },
+    {
+      "id": "especial",
+      "name": {
+        "es": "Especial",
+        "ca": "Especial",
+        "en": "Special"
+      }
+    }
+  ],
+  "allergenLegend": [
+    {
+      "n": 1,
+      "es": "Gluten",
+      "ca": "Gluten",
+      "en": "Gluten"
+    },
+    {
+      "n": 2,
+      "es": "Crustáceos",
+      "ca": "Crustacis",
+      "en": "Crustaceans"
+    },
+    {
+      "n": 3,
+      "es": "Moluscos",
+      "ca": "Mol·luscs",
+      "en": "Molluscs"
+    },
+    {
+      "n": 4,
+      "es": "Pescado",
+      "ca": "Peix",
+      "en": "Fish"
+    },
+    {
+      "n": 5,
+      "es": "Frutos secos",
+      "ca": "Fruits secs",
+      "en": "Nuts"
+    },
+    {
+      "n": 6,
+      "es": "Apio",
+      "ca": "Api",
+      "en": "Celery"
+    },
+    {
+      "n": 7,
+      "es": "Altramuces",
+      "ca": "Tramussos",
+      "en": "Lupins"
+    },
+    {
+      "n": 8,
+      "es": "Soja",
+      "ca": "Soja",
+      "en": "Soya"
+    },
+    {
+      "n": 9,
+      "es": "Cacahuetes",
+      "ca": "Cacauets",
+      "en": "Peanuts"
+    },
+    {
+      "n": 10,
+      "es": "Mostaza",
+      "ca": "Mostassa",
+      "en": "Mustard"
+    },
+    {
+      "n": 11,
+      "es": "Sésamo",
+      "ca": "Sèsam",
+      "en": "Sesame"
+    },
+    {
+      "n": 12,
+      "es": "Lácteos",
+      "ca": "Lactis",
+      "en": "Milk"
+    },
+    {
+      "n": 13,
+      "es": "Sulfitos",
+      "ca": "Sulfits",
+      "en": "Sulphur dioxide"
+    },
+    {
+      "n": 14,
+      "es": "Huevos",
+      "ca": "Ous",
+      "en": "Eggs"
+    }
+  ],
+  "items": [
+    {
+      "code": "001",
+      "category": "starters",
+      "name": {
+        "es": "Sopa de miso",
+        "ca": "Sopa miso",
+        "en": "Miso soup"
+      },
+      "desc": {
+        "es": "Sopa de miso con algas y tofu.",
+        "ca": "Sopa de miso amb algues i tofu.",
+        "en": "Miso soup with seaweed and tofu."
+      },
+      "allergens": [
+        1,
+        4,
+        8
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "002",
+      "category": "starters",
+      "name": {
+        "es": "Sopa de marisco",
+        "ca": "Sopa marisc",
+        "en": "Shellfish soup"
+      },
+      "desc": {
+        "es": "Sopa marina con gambas, surimi y tofu.",
+        "ca": "Sopa marina amb gambes, surimi i tofu.",
+        "en": "Shrimps, tofu and crabstick."
+      },
+      "allergens": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "003",
+      "category": "starters",
+      "name": {
+        "es": "Sopa agripicante",
+        "ca": "Sopa agripicant",
+        "en": "Sweet and sour soup"
+      },
+      "desc": {
+        "es": "Sopa exótica oriental para los amantes de los sabores potentes.",
+        "ca": "Sopa exòtica oriental per als amants dels sabors potents.",
+        "en": "Oriental exotic soup for lovers of powerful flavors."
+      },
+      "allergens": [
+        1,
+        8,
+        14
+      ],
+      "spicy": true,
+      "vegan": false
+    },
+    {
+      "code": "004",
+      "category": "starters",
+      "name": {
+        "es": "Edamame",
+        "ca": "Edamame",
+        "en": "Edamame"
+      },
+      "desc": {
+        "es": "Vainas de soja.",
+        "ca": "Beines de soja.",
+        "en": "Soybean pods."
+      },
+      "allergens": [
+        8
+      ],
+      "spicy": false,
+      "vegan": true
+    },
+    {
+      "code": "005",
+      "category": "starters",
+      "name": {
+        "es": "Edamame picante",
+        "ca": "Edamame picant",
+        "en": "Spicy edamame"
+      },
+      "desc": {
+        "es": "Vainas de soja picantes.",
+        "ca": "Beines de soja picants.",
+        "en": "Spicy soybean pods."
+      },
+      "allergens": [
+        5,
+        8,
+        9,
+        11
+      ],
+      "spicy": true,
+      "vegan": true
+    },
+    {
+      "code": "006",
+      "category": "starters",
+      "name": {
+        "es": "Ensalada de wakame",
+        "ca": "Amanida wakame",
+        "en": "Wakame salad"
+      },
+      "desc": {
+        "es": "Esencia del mar.",
+        "ca": "Essència del mar.",
+        "en": "Essence of the sea."
+      },
+      "allergens": [
+        11
+      ],
+      "spicy": false,
+      "vegan": true
+    },
+    {
+      "code": "007",
+      "category": "starters",
+      "name": {
+        "es": "Ensalada de verduras",
+        "ca": "Amanida de verdures",
+        "en": "Mixed salad"
+      },
+      "desc": {
+        "es": "Mezclum, maíz, zanahoria, tomate cherry, aguacate, sésamo, salsa de la casa.",
+        "ca": "Mesclum, blat de moro, pastanaga, tomàquet cherry, alvocat, sèsam, salsa de la casa.",
+        "en": "Mesclum, corn, carrot, cherry tomato, avocado, sesame, house sauce."
+      },
+      "allergens": [
+        1,
+        8,
+        10,
+        11,
+        14
+      ],
+      "spicy": false,
+      "vegan": true
+    },
+    {
+      "code": "008",
+      "category": "starters",
+      "name": {
+        "es": "Ensalada con salmón",
+        "ca": "Amanida amb salmó",
+        "en": "Mixed salad with salmon"
+      },
+      "desc": {
+        "es": "Mezclum, maíz, zanahoria, tomate cherry, aguacate, sésamo, salmón, salsa de la casa.",
+        "ca": "Mesclum, blat de moro, pastanaga, tomàquet cherry, alvocat, sèsam, salmó, salsa de la casa.",
+        "en": "Mesclun, corn, carrot, cherry tomato, avocado, sesame, salmon, house sauce."
+      },
+      "allergens": [
+        1,
+        2,
+        4,
+        8,
+        10
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "009",
+      "category": "starters",
+      "name": {
+        "es": "Ensalada César",
+        "ca": "Amanida Cèsar",
+        "en": "Deluxe Caesar salad"
+      },
+      "desc": {
+        "es": "Iceberg, zanahoria, brie, picatostes, salsa sésamo.",
+        "ca": "Iceberg, pastanaga, brie, crostons, salsa de sèsam.",
+        "en": "Iceberg lettuce, carrot, brie, croutons, sesame dressing."
+      },
+      "allergens": [
+        1,
+        8,
+        11,
+        12
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "010",
+      "category": "starters",
+      "name": {
+        "es": "Ensalada de algas y pepino",
+        "ca": "Amanida d'algues i cogombre",
+        "en": "Seaweed and cucumber salad"
+      },
+      "desc": {
+        "es": "Algas, pepino, salsa sésamo.",
+        "ca": "Algues, cogombre, salsa de sèsam.",
+        "en": "Seaweed, cucumber, sesame sauce."
+      },
+      "allergens": [
+        1,
+        11
+      ],
+      "spicy": false,
+      "vegan": true
+    },
+    {
+      "code": "011",
+      "category": "starters",
+      "name": {
+        "es": "Gyoza de verduras (4)",
+        "ca": "Gyoza de verdures (4)",
+        "en": "Vegetable gyoza"
+      },
+      "desc": {
+        "es": "Empanadillas japonesas de verduras.",
+        "ca": "Empanadetes japoneses de verdures.",
+        "en": "Japanese vegetable dumplings."
+      },
+      "allergens": [
+        1,
+        8,
+        11
+      ],
+      "spicy": false,
+      "vegan": true
+    },
+    {
+      "code": "012",
+      "category": "starters",
+      "name": {
+        "es": "Gyoza de pollo (4)",
+        "ca": "Gyoza de pollastre (4)",
+        "en": "Chicken gyoza"
+      },
+      "desc": {
+        "es": "Empanadillas japonesas de pollo.",
+        "ca": "Empanadetes japoneses de pollastre.",
+        "en": "Japanese chicken dumplings."
+      },
+      "allergens": [
+        1,
+        8,
+        11
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "016",
+      "category": "dimsum",
+      "name": {
+        "es": "Gyoza de langostino (3)",
+        "ca": "Gyoza llagostí (3)",
+        "en": "Prawn gyoza"
+      },
+      "desc": {
+        "es": "Empanadillas japonesas de langostino.",
+        "ca": "Empanadetes japoneses de llagostí.",
+        "en": "Prawn gyoza."
+      },
+      "allergens": [
+        1,
+        2,
+        8,
+        11
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "017",
+      "category": "dimsum",
+      "name": {
+        "es": "Shu mai (3)",
+        "ca": "Shu mai (3)",
+        "en": "Shu mai"
+      },
+      "desc": {
+        "es": "Dim sum al vapor de cerdo y gambas.",
+        "ca": "Dim sum al vapor de porc i gambes.",
+        "en": "Steamed pork and prawn dim sum."
+      },
+      "allergens": [
+        1,
+        8,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "018",
+      "category": "dimsum",
+      "name": {
+        "es": "Xiaolongbao (2)",
+        "ca": "Xiaolongbao (2)",
+        "en": "Steamed pork buns"
+      },
+      "desc": {
+        "es": "Panecillos al vapor rellenos de cerdo.",
+        "ca": "Panets al vapor farcits de porc.",
+        "en": "Steamed pork buns."
+      },
+      "allergens": [
+        1,
+        8,
+        11,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "019",
+      "category": "dimsum",
+      "name": {
+        "es": "Bollitos al vapor (2)",
+        "ca": "Boixets al vapor (2)",
+        "en": "Steamed custard bread"
+      },
+      "desc": {
+        "es": "Panecillos al vapor con crema.",
+        "ca": "Panets al vapor amb crema.",
+        "en": "Steamed custard bread."
+      },
+      "allergens": [
+        1,
+        8,
+        12,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "020",
+      "category": "dimsum",
+      "name": {
+        "es": "Pan bao de langostino",
+        "ca": "Pan bao de llagostí",
+        "en": "Steamed bread with prawn"
+      },
+      "desc": {
+        "es": "Pan bao al vapor con langostino.",
+        "ca": "Pa bao al vapor amb llagostí.",
+        "en": "Steamed bread with prawn."
+      },
+      "allergens": [
+        1,
+        2,
+        8,
+        11,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "021",
+      "category": "dimsum",
+      "name": {
+        "es": "Pan bao de pollo",
+        "ca": "Pan bao de pollastre",
+        "en": "Steamed bread with chicken"
+      },
+      "desc": {
+        "es": "Pan bao al vapor con pollo.",
+        "ca": "Pa bao al vapor amb pollastre.",
+        "en": "Steamed bread with chicken."
+      },
+      "allergens": [
+        1,
+        8,
+        11,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "022",
+      "category": "dimsum",
+      "name": {
+        "es": "Pan bao de pato",
+        "ca": "Bao d'ànec",
+        "en": "Steamed bread with duck"
+      },
+      "desc": {
+        "es": "Pan bao al vapor con pato.",
+        "ca": "Pa bao al vapor amb ànec.",
+        "en": "Steamed bread with duck."
+      },
+      "allergens": [
+        1,
+        8,
+        11
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "030",
+      "category": "dimsum",
+      "name": {
+        "es": "Pan frito japonés (2)",
+        "ca": "Pa fregit japonès (2)",
+        "en": "Japanese fried bread"
+      },
+      "desc": {
+        "es": "Pan japonés frito.",
+        "ca": "Pa japonès fregit.",
+        "en": "Japanese fried bread."
+      },
+      "allergens": [
+        1,
+        8,
+        12
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "031",
+      "category": "dimsum",
+      "name": {
+        "es": "Patatas fritas",
+        "ca": "Patates frites",
+        "en": "French fries"
+      },
+      "desc": {
+        "es": "Patatas fritas.",
+        "ca": "Patates fregides.",
+        "en": "French fries."
+      },
+      "allergens": [
+        1
+      ],
+      "spicy": false,
+      "vegan": true
+    },
+    {
+      "code": "032",
+      "category": "dimsum",
+      "name": {
+        "es": "Harumaki vegetal (2)",
+        "ca": "Harumaki vegetal (2)",
+        "en": "Spring rolls"
+      },
+      "desc": {
+        "es": "Rollitos rellenos de mezclas de verduras.",
+        "ca": "Rotllets farcits de barreja de verdures.",
+        "en": "Rolls stuffed with mixed vegetables."
+      },
+      "allergens": [
+        1
+      ],
+      "spicy": false,
+      "vegan": true
+    },
+    {
+      "code": "033",
+      "category": "dimsum",
+      "name": {
+        "es": "Saquito vegetal (4)",
+        "ca": "Farcellet vegetal (4)",
+        "en": "Crispy vegetable bag"
+      },
+      "desc": {
+        "es": "Saquitos crujientes de verduras.",
+        "ca": "Farcellets cruixents de verdures.",
+        "en": "Crispy vegetable bag."
+      },
+      "allergens": [
+        1
+      ],
+      "spicy": false,
+      "vegan": true
+    },
+    {
+      "code": "034",
+      "category": "dimsum",
+      "name": {
+        "es": "Muslitos de cangrejo (2)",
+        "ca": "Cuixes de cranc (2)",
+        "en": "Fried crab legs"
+      },
+      "desc": {
+        "es": "Muslitos de cangrejo fritos.",
+        "ca": "Cuixes de cranc fregides.",
+        "en": "Fried crab legs."
+      },
+      "allergens": [
+        1,
+        2,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "035",
+      "category": "fried",
+      "name": {
+        "es": "Tempura de verduras",
+        "ca": "Tempura de verdures",
+        "en": "Mixed veggie tempura"
+      },
+      "desc": {
+        "es": "Verduras variadas en tempura.",
+        "ca": "Verdures variades en tempura.",
+        "en": "Mixed vegetables in tempura."
+      },
+      "allergens": [
+        1,
+        8
+      ],
+      "spicy": false,
+      "vegan": true
+    },
+    {
+      "code": "036",
+      "category": "fried",
+      "name": {
+        "es": "Pollo kimono",
+        "ca": "Pollastre kimono",
+        "en": "Chicken kimono"
+      },
+      "desc": {
+        "es": "Pollo rebozado estilo kimono.",
+        "ca": "Pollastre arrebossat estil kimono.",
+        "en": "Kimono-style breaded chicken."
+      },
+      "allergens": [
+        1,
+        8,
+        11,
+        12,
+        13,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "037",
+      "category": "fried",
+      "name": {
+        "es": "Nuggets de pollo",
+        "ca": "Nuggets de pollastre",
+        "en": "Chicken nuggets"
+      },
+      "desc": {
+        "es": "Nuggets de pollo.",
+        "ca": "Nuggets de pollastre.",
+        "en": "Chicken nuggets."
+      },
+      "allergens": [
+        1,
+        8,
+        12,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "038",
+      "category": "fried",
+      "name": {
+        "es": "Gyozas fritas",
+        "ca": "Gyozas frites",
+        "en": "Fried gyozas"
+      },
+      "desc": {
+        "es": "Empanadillas japonesas fritas.",
+        "ca": "Empanadetes japoneses fregides.",
+        "en": "Fried gyozas."
+      },
+      "allergens": [
+        1,
+        8,
+        11,
+        12,
+        13,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "039",
+      "category": "fried",
+      "name": {
+        "es": "Langostino kimono",
+        "ca": "Langostino kimono",
+        "en": "Prawn kimono"
+      },
+      "desc": {
+        "es": "Langostino rebozado estilo kimono.",
+        "ca": "Llagostí arrebossat estil kimono.",
+        "en": "Kimono-style breaded prawn."
+      },
+      "allergens": [
+        1,
+        2,
+        8,
+        11,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "040",
+      "category": "fried",
+      "name": {
+        "es": "Tempura de langostino (2)",
+        "ca": "Tempura de langostino (2)",
+        "en": "Prawn tempura"
+      },
+      "desc": {
+        "es": "Langostinos en tempura.",
+        "ca": "Llagostins en tempura.",
+        "en": "Prawns in tempura."
+      },
+      "allergens": [
+        1,
+        2,
+        11,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "041",
+      "category": "fried",
+      "name": {
+        "es": "Takoyaki (2)",
+        "ca": "Takoyaki (2)",
+        "en": "Takoyaki"
+      },
+      "desc": {
+        "es": "Bolitas de pulpo japonesas.",
+        "ca": "Boletes de pop japoneses.",
+        "en": "Japanese octopus balls."
+      },
+      "allergens": [
+        1,
+        3,
+        4,
+        5,
+        11,
+        12
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "042",
+      "category": "fried",
+      "name": {
+        "es": "Bolas de sésamo (2)",
+        "ca": "Boles de sèsam (2)",
+        "en": "Sesame balls"
+      },
+      "desc": {
+        "es": "Bolas de sésamo dulces.",
+        "ca": "Boles de sèsam dolces.",
+        "en": "Sweet sesame balls."
+      },
+      "allergens": [
+        1,
+        8,
+        9,
+        11
+      ],
+      "spicy": false,
+      "vegan": true
+    },
+    {
+      "code": "043",
+      "category": "fried",
+      "name": {
+        "es": "Pato laqueado",
+        "ca": "Ànec lacat",
+        "en": "Glazed duck"
+      },
+      "desc": {
+        "es": "Pato laqueado.",
+        "ca": "Ànec lacat.",
+        "en": "Glazed duck."
+      },
+      "allergens": [
+        1,
+        8
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "051",
+      "category": "fried",
+      "name": {
+        "es": "Salmón teriyaki",
+        "ca": "Salmó teriyaki",
+        "en": "Teriyaki salmon"
+      },
+      "desc": {
+        "es": "Salmón con salsa teriyaki.",
+        "ca": "Salmó amb salsa teriyaki.",
+        "en": "Salmon with teriyaki sauce."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        11
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "052",
+      "category": "fried",
+      "name": {
+        "es": "Vieiras a la plancha (2)",
+        "ca": "Petxines a la planxa (2)",
+        "en": "Grilled scallops"
+      },
+      "desc": {
+        "es": "Vieiras a la plancha. Solo una ración/persona, cada ración extra 1€.",
+        "ca": "Petxines a la planxa. Només una ració/persona, cada ració extra 1€.",
+        "en": "Grilled scallops. One serving per person, each extra serving 1€."
+      },
+      "allergens": [
+        3
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "053",
+      "category": "fried",
+      "name": {
+        "es": "Langostino a la plancha (2)",
+        "ca": "Llagostí a la planxa (2)",
+        "en": "Grilled prawns"
+      },
+      "desc": {
+        "es": "Langostinos a la plancha.",
+        "ca": "Llagostins a la planxa.",
+        "en": "Grilled prawns."
+      },
+      "allergens": [
+        2
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "054",
+      "category": "teppanyaki",
+      "name": {
+        "es": "Yakitori (2)",
+        "ca": "Yakitori (2)",
+        "en": "Yakitori"
+      },
+      "desc": {
+        "es": "Brochetas de pollo a la parrilla.",
+        "ca": "Broquetes de pollastre a la graella.",
+        "en": "Grilled chicken skewers."
+      },
+      "allergens": [
+        1,
+        8,
+        11
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "055",
+      "category": "teppanyaki",
+      "name": {
+        "es": "Navajas a la plancha (2)",
+        "ca": "Navalles a la planxa (2)",
+        "en": "Grilled razor shells"
+      },
+      "desc": {
+        "es": "Navajas a la plancha.",
+        "ca": "Navalles a la planxa.",
+        "en": "Grilled razor shells."
+      },
+      "allergens": [
+        3
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "056",
+      "category": "teppanyaki",
+      "name": {
+        "es": "Brochetas de setas (2)",
+        "ca": "Brochetes de bolets (2)",
+        "en": "Mushroom skewers"
+      },
+      "desc": {
+        "es": "Brochetas de setas.",
+        "ca": "Broquetes de bolets.",
+        "en": "Mushroom skewers."
+      },
+      "allergens": [
+        1,
+        8,
+        11
+      ],
+      "spicy": false,
+      "vegan": true
+    },
+    {
+      "code": "057",
+      "category": "teppanyaki",
+      "name": {
+        "es": "Almejas a la plancha",
+        "ca": "Cloïsses a la planxa",
+        "en": "Grilled clams"
+      },
+      "desc": {
+        "es": "Almejas a la plancha.",
+        "ca": "Cloïsses a la planxa.",
+        "en": "Grilled clams."
+      },
+      "allergens": [
+        3
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "058",
+      "category": "teppanyaki",
+      "name": {
+        "es": "Pulpitos a la plancha",
+        "ca": "Popets a la planxa",
+        "en": "Grilled baby octopus"
+      },
+      "desc": {
+        "es": "Pulpitos a la plancha.",
+        "ca": "Popets a la planxa.",
+        "en": "Grilled baby octopus."
+      },
+      "allergens": [
+        3
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "059",
+      "category": "teppanyaki",
+      "name": {
+        "es": "Rejos",
+        "ca": "Rejos",
+        "en": "Grilled octopus tentacles"
+      },
+      "desc": {
+        "es": "Tentáculos de pulpo a la plancha.",
+        "ca": "Tentacles de pop a la planxa.",
+        "en": "Grilled octopus tentacles."
+      },
+      "allergens": [
+        3
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "060",
+      "category": "teppanyaki",
+      "name": {
+        "es": "Sepia a la plancha",
+        "ca": "Sípia a la planxa",
+        "en": "Grilled squid"
+      },
+      "desc": {
+        "es": "Sepia a la plancha.",
+        "ca": "Sípia a la planxa.",
+        "en": "Grilled squid."
+      },
+      "allergens": [
+        3
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "061",
+      "category": "teppanyaki",
+      "name": {
+        "es": "Brocheta de gambas (2)",
+        "ca": "Brocheta de gambes (2)",
+        "en": "Prawn skewer"
+      },
+      "desc": {
+        "es": "Brocheta de gambas.",
+        "ca": "Broqueta de gambes.",
+        "en": "Prawn skewer."
+      },
+      "allergens": [
+        2
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "062",
+      "category": "teppanyaki",
+      "name": {
+        "es": "Verduras mixtas",
+        "ca": "Verdures mixtes",
+        "en": "Grilled mixed vegetables"
+      },
+      "desc": {
+        "es": "Verduras variadas a la plancha.",
+        "ca": "Verdures variades a la planxa.",
+        "en": "Grilled mixed vegetables."
+      },
+      "allergens": [],
+      "spicy": false,
+      "vegan": true
+    },
+    {
+      "code": "070",
+      "category": "teppanyaki",
+      "name": {
+        "es": "Yakiudon con ternera",
+        "ca": "Yakiudon amb vedella",
+        "en": "Beef udon"
+      },
+      "desc": {
+        "es": "Fideos udon salteados con ternera.",
+        "ca": "Fideus udon saltejats amb vedella.",
+        "en": "Stir-fried udon noodles with beef."
+      },
+      "allergens": [
+        1,
+        8
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "071",
+      "category": "teppanyaki",
+      "name": {
+        "es": "Udon con gambas",
+        "ca": "Udon amb gambes",
+        "en": "Deluxe udon"
+      },
+      "desc": {
+        "es": "Fideos udon salteados con gambas.",
+        "ca": "Fideus udon saltejats amb gambes.",
+        "en": "Stir-fried udon noodles with prawns."
+      },
+      "allergens": [
+        1,
+        2,
+        3,
+        4,
+        8
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "072",
+      "category": "teppanyaki",
+      "name": {
+        "es": "Yakisoba con verduras",
+        "ca": "Yakisoba amb verdures",
+        "en": "Vegetable yakisoba"
+      },
+      "desc": {
+        "es": "Fideos yakisoba salteados con verduras.",
+        "ca": "Fideus yakisoba saltejats amb verdures.",
+        "en": "Stir-fried yakisoba noodles with vegetables."
+      },
+      "allergens": [
+        1,
+        8
+      ],
+      "spicy": false,
+      "vegan": true
+    },
+    {
+      "code": "073",
+      "category": "wok",
+      "name": {
+        "es": "Yakisoba con pollo",
+        "ca": "Yakisoba amb pollastre",
+        "en": "Chicken yakisoba"
+      },
+      "desc": {
+        "es": "Fideos yakisoba salteados con pollo.",
+        "ca": "Fideus yakisoba saltejats amb pollastre.",
+        "en": "Stir-fried yakisoba noodles with chicken."
+      },
+      "allergens": [
+        1,
+        8
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "074",
+      "category": "wok",
+      "name": {
+        "es": "Fideos de arroz con verduras y mariscos",
+        "ca": "Fideus d'arròs amb verdures i mariscs",
+        "en": "Rice noodles with vegetables and seafood"
+      },
+      "desc": {
+        "es": "Fideos de arroz con verduras y mariscos.",
+        "ca": "Fideus d'arròs amb verdures i mariscs.",
+        "en": "Rice noodles with vegetables and seafood."
+      },
+      "allergens": [
+        1,
+        2,
+        8,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "075",
+      "category": "wok",
+      "name": {
+        "es": "Yakimeshi",
+        "ca": "Yakimeshi",
+        "en": "Yakimeshi"
+      },
+      "desc": {
+        "es": "Arroz frito al estilo japonés.",
+        "ca": "Arròs fregit a l'estil japonès.",
+        "en": "Japanese style fried rice."
+      },
+      "allergens": [
+        1,
+        8,
+        11,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "076",
+      "category": "wok",
+      "name": {
+        "es": "Yakimeshi kimchi",
+        "ca": "Yakimeshi kimuchi",
+        "en": "Fried rice with kimchi"
+      },
+      "desc": {
+        "es": "Arroz frito japonés con el toque picante y ácido del kimchi coreano.",
+        "ca": "Arròs fregit japonès amb el toc picant i àcid del kimchi coreà.",
+        "en": "Japanese fried rice with the spicy and tangy touch of Korean kimchi."
+      },
+      "allergens": [
+        1,
+        8,
+        11,
+        13,
+        14
+      ],
+      "spicy": true,
+      "vegan": false
+    },
+    {
+      "code": "077",
+      "category": "wok",
+      "name": {
+        "es": "Kara-age don",
+        "ca": "Kara-age don",
+        "en": "Kara-age don"
+      },
+      "desc": {
+        "es": "Cuenco de arroz con pollo frito kara-age.",
+        "ca": "Bol d'arròs amb pollastre fregit kara-age.",
+        "en": "Rice bowl with kara-age fried chicken."
+      },
+      "allergens": [
+        1,
+        7,
+        8,
+        11,
+        12,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "078",
+      "category": "wok",
+      "name": {
+        "es": "Arroz blanco con sésamo",
+        "ca": "Arròs blanc amb sèsam",
+        "en": "White rice with sesame"
+      },
+      "desc": {
+        "es": "Arroz blanco con sésamo.",
+        "ca": "Arròs blanc amb sèsam.",
+        "en": "White rice with sesame."
+      },
+      "allergens": [
+        11
+      ],
+      "spicy": false,
+      "vegan": true
+    },
+    {
+      "code": "079",
+      "category": "wok",
+      "name": {
+        "es": "Ramen de miso",
+        "ca": "Ramen de miso",
+        "en": "Miso ramen"
+      },
+      "desc": {
+        "es": "Ramen en caldo de miso.",
+        "ca": "Ramen en brou de miso.",
+        "en": "Ramen in miso broth."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        9,
+        11,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "080",
+      "category": "wok",
+      "name": {
+        "es": "Sopa de udon",
+        "ca": "Sopa de udon",
+        "en": "Udon soup"
+      },
+      "desc": {
+        "es": "Sopa de fideos udon.",
+        "ca": "Sopa de fideus udon.",
+        "en": "Udon noodle soup."
+      },
+      "allergens": [
+        1,
+        2,
+        3,
+        4,
+        8
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "081",
+      "category": "wok",
+      "name": {
+        "es": "Olla de ternera con salsa de la casa",
+        "ca": "Olla vedella amb salsa de la casa",
+        "en": "Dry pot beef"
+      },
+      "desc": {
+        "es": "Olla seca de ternera con salsa de la casa.",
+        "ca": "Olla seca de vedella amb salsa de la casa.",
+        "en": "Dry pot beef with house sauce."
+      },
+      "allergens": [
+        1,
+        8
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "082",
+      "category": "wok",
+      "name": {
+        "es": "Ternera con brotes de bambú y setas shiitake",
+        "ca": "Vedella amb brots de bambú i bolets shiitake",
+        "en": "Beef with bamboo shoots and mushrooms"
+      },
+      "desc": {
+        "es": "Ternera con brotes de bambú y setas shiitake.",
+        "ca": "Vedella amb brots de bambú i bolets shiitake.",
+        "en": "Beef with bamboo shoots and shiitake mushrooms."
+      },
+      "allergens": [
+        1,
+        8
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "083",
+      "category": "wok",
+      "name": {
+        "es": "Olla de pollo",
+        "ca": "Olla de pollastre",
+        "en": "Dry pot chicken"
+      },
+      "desc": {
+        "es": "Olla seca de pollo.",
+        "ca": "Olla seca de pollastre.",
+        "en": "Dry pot chicken."
+      },
+      "allergens": [
+        1,
+        8
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "084",
+      "category": "wok",
+      "name": {
+        "es": "Kungpao pollo",
+        "ca": "Kungpao pollastre",
+        "en": "Kung pao chicken"
+      },
+      "desc": {
+        "es": "Pollo kung pao picante.",
+        "ca": "Pollastre kung pao picant.",
+        "en": "Spicy kung pao chicken."
+      },
+      "allergens": [
+        1,
+        8,
+        9
+      ],
+      "spicy": true,
+      "vegan": false
+    },
+    {
+      "code": "085",
+      "category": "drypot",
+      "name": {
+        "es": "Pollo al curry",
+        "ca": "Pollastre al curry",
+        "en": "Chicken curry"
+      },
+      "desc": {
+        "es": "Pollo al curry.",
+        "ca": "Pollastre al curri.",
+        "en": "Chicken curry."
+      },
+      "allergens": [
+        1,
+        6,
+        10
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "086",
+      "category": "drypot",
+      "name": {
+        "es": "Olla de gambas",
+        "ca": "Olla de gambes",
+        "en": "Kung pao shrimp"
+      },
+      "desc": {
+        "es": "Olla de gambas kung pao.",
+        "ca": "Olla de gambes kung pao.",
+        "en": "Kung pao shrimp."
+      },
+      "allergens": [
+        1,
+        8
+      ],
+      "spicy": true,
+      "vegan": false
+    },
+    {
+      "code": "087",
+      "category": "drypot",
+      "name": {
+        "es": "Gambas con sal y pimienta",
+        "ca": "Gambes amb sal i pebre",
+        "en": "Salt and pepper shrimp"
+      },
+      "desc": {
+        "es": "Gambas con sal y pimienta.",
+        "ca": "Gambes amb sal i pebre.",
+        "en": "Salt and pepper shrimp."
+      },
+      "allergens": [
+        2
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "088",
+      "category": "drypot",
+      "name": {
+        "es": "Gambas agridulces",
+        "ca": "Gambes agredolces",
+        "en": "Sweet and sour prawns"
+      },
+      "desc": {
+        "es": "Gambas en salsa agridulce.",
+        "ca": "Gambes en salsa agredolça.",
+        "en": "Sweet and sour prawns."
+      },
+      "allergens": [
+        2
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "089",
+      "category": "drypot",
+      "name": {
+        "es": "Calamares con salsa agridulce picante",
+        "ca": "Calamars amb salsa dolçpicant",
+        "en": "Sweet and spicy calamari"
+      },
+      "desc": {
+        "es": "Calamares con salsa dulce y picante.",
+        "ca": "Calamars amb salsa dolça i picant.",
+        "en": "Sweet and spicy calamari."
+      },
+      "allergens": [
+        3
+      ],
+      "spicy": true,
+      "vegan": false
+    },
+    {
+      "code": "201",
+      "category": "uramaki",
+      "name": {
+        "es": "Sake aguacate",
+        "ca": "Sake aguacate",
+        "en": "Sake aguacate"
+      },
+      "desc": {
+        "es": "Salmón, aguacate, sésamo.",
+        "ca": "Salmó, alvocat, sèsam.",
+        "en": "Salmon, avocado, sesame."
+      },
+      "allergens": [
+        4,
+        11
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "202",
+      "category": "uramaki",
+      "name": {
+        "es": "Sake tobiko",
+        "ca": "Sake tobiko",
+        "en": "Sake tobiko"
+      },
+      "desc": {
+        "es": "Salmón, aguacate, tobiko.",
+        "ca": "Salmó, alvocat, tobiko.",
+        "en": "Salmon, avocado, tobiko."
+      },
+      "allergens": [
+        4
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "203",
+      "category": "uramaki",
+      "name": {
+        "es": "Uramaki cheese",
+        "ca": "Uramaki cheese",
+        "en": "Uramaki cheese"
+      },
+      "desc": {
+        "es": "Salmón con aguacate, cubiertos de salmón y queso crema.",
+        "ca": "Salmó amb alvocat, cobert de salmó i formatge cremós.",
+        "en": "Salmon with avocado, covered with salmon and cream cheese."
+      },
+      "allergens": [
+        4,
+        12
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "204",
+      "category": "uramaki",
+      "name": {
+        "es": "Uramaki elixir",
+        "ca": "Uramaki elixir",
+        "en": "Uramaki elixir"
+      },
+      "desc": {
+        "es": "Salmón con aguacate, cubiertos de queso flameado, salsa teriyaki.",
+        "ca": "Salmó amb alvocat, cobert de formatge flamejat, salsa teriyaki.",
+        "en": "Salmon, avocado covered with flamed cheese, teriyaki sauce."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        12
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "205",
+      "category": "uramaki",
+      "name": {
+        "es": "Rollo serrano",
+        "ca": "Rollo serrano",
+        "en": "Serrano roll"
+      },
+      "desc": {
+        "es": "Salmón con aguacate, cubiertos de jamón, salsa teriyaki.",
+        "ca": "Salmó amb alvocat, cobert de pernil, salsa teriyaki.",
+        "en": "Salmon with avocado, covered with ham, teriyaki sauce."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        13
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "206",
+      "category": "uramaki",
+      "name": {
+        "es": "Tropical roll",
+        "ca": "Tropical roll",
+        "en": "Tropical roll"
+      },
+      "desc": {
+        "es": "Salmón con aguacate, cubiertos de salmón, mango y salsa de mango.",
+        "ca": "Salmó amb alvocat, cobert de salmó, mango i salsa de mango.",
+        "en": "Salmon with avocado, covered with salmon, mango and mango sauce."
+      },
+      "allergens": [
+        1,
+        4,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "207",
+      "category": "uramaki",
+      "name": {
+        "es": "Esencia cremosa",
+        "ca": "Esència cremosa",
+        "en": "Creamy essence"
+      },
+      "desc": {
+        "es": "Salmón con crema de aguacate, queso crema y pistacho molido.",
+        "ca": "Salmó amb crema d'alvocat, formatge cremós i festuc mòlt.",
+        "en": "Salmon with avocado cream, cream cheese, and ground pistachio."
+      },
+      "allergens": [
+        4,
+        5,
+        12
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "208",
+      "category": "uramaki",
+      "name": {
+        "es": "Spicy sake",
+        "ca": "Spicy sake",
+        "en": "Spicy sake"
+      },
+      "desc": {
+        "es": "Salmón, crema de aguacate, salmón picante, salsa mayonesa y anguila.",
+        "ca": "Salmó, crema d'alvocat, salmó picant, salsa de maionesa i anguila.",
+        "en": "Salmon, avocado cream, spicy salmon, mayonnaise, and eel sauce."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        14
+      ],
+      "spicy": true,
+      "vegan": false
+    },
+    {
+      "code": "209",
+      "category": "uramaki",
+      "name": {
+        "es": "Crispy salmón cocido",
+        "ca": "Crispy salmón cocido",
+        "en": "Crispy cooked salmon"
+      },
+      "desc": {
+        "es": "Salmón cocido con aguacate y queso crema, salsa anguila y cebolla frita.",
+        "ca": "Salmó cuit amb alvocat i formatge cremós, salsa d'anguila i ceba fregida.",
+        "en": "Cooked salmon with avocado and cream cheese, unagi sauce, and fried onion."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        12
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "210",
+      "category": "uramaki",
+      "name": {
+        "es": "Sake plus roll",
+        "ca": "Sake plus roll",
+        "en": "Sake plus roll"
+      },
+      "desc": {
+        "es": "Salmón cocido con aguacate y queso crema, cubiertos de salmón flameado, salsa anguila y pistacho molido.",
+        "ca": "Salmó cuit amb alvocat i formatge cremós, cobert de salmó flamejat, salsa d'anguila i festuc mòlt.",
+        "en": "Cooked salmon with avocado and cream cheese, covered with flamed salmon, unagi sauce, and ground pistachio."
+      },
+      "allergens": [
+        1,
+        4,
+        5,
+        8,
+        11,
+        12
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "211",
+      "category": "uramaki",
+      "name": {
+        "es": "Tuna aguacate",
+        "ca": "Tuna aguacate",
+        "en": "Tuna aguacate"
+      },
+      "desc": {
+        "es": "Atún con aguacate, cebolla frita, salsa teriyaki.",
+        "ca": "Tonyina amb alvocat, ceba fregida, salsa teriyaki.",
+        "en": "Tuna with avocado, crispy onion, teriyaki sauce."
+      },
+      "allergens": [
+        1,
+        4,
+        8
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "212",
+      "category": "uramaki",
+      "name": {
+        "es": "Tuna tobiko",
+        "ca": "Tuna tobiko",
+        "en": "Tuna tobiko"
+      },
+      "desc": {
+        "es": "Atún con aguacate, sésamo, tobiko.",
+        "ca": "Tonyina amb alvocat, sèsam, tobiko.",
+        "en": "Tuna with avocado and tobiko."
+      },
+      "allergens": [
+        4,
+        11
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "213",
+      "category": "uramaki",
+      "name": {
+        "es": "Tuna almond roll",
+        "ca": "Tuna almond roll",
+        "en": "Tuna almond roll"
+      },
+      "desc": {
+        "es": "Atún con aguacate, cubiertos de salmón flameado, salsa teriyaki, mayonesa kimuchi y almendras.",
+        "ca": "Tonyina amb alvocat, cobert de salmó flamejat, salsa teriyaki, maionesa kimuchi i ametlles.",
+        "en": "Tuna with avocado, covered with flamed salmon, teriyaki sauce, kimuchi mayonnaise and almonds."
+      },
+      "allergens": [
+        1,
+        4,
+        5,
+        8,
+        13,
+        14
+      ],
+      "spicy": true,
+      "vegan": false
+    },
+    {
+      "code": "214",
+      "category": "uramaki",
+      "name": {
+        "es": "Dúo tropical",
+        "ca": "Duo tropical",
+        "en": "Duo tropical"
+      },
+      "desc": {
+        "es": "Atún con aguacate, cubiertos de salmón flameado, mango y mayonesa.",
+        "ca": "Tonyina amb alvocat, cobert de salmó flamejat, mango i maionesa.",
+        "en": "Tuna with avocado, covered with flamed salmon, mango, and mayonnaise."
+      },
+      "allergens": [
+        1,
+        4,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "215",
+      "category": "uramaki",
+      "name": {
+        "es": "Alaskan roll",
+        "ca": "Alaskan roll",
+        "en": "Alaskan roll"
+      },
+      "desc": {
+        "es": "Tartar de surimi y pepino, cubiertos de salmón flameado, salsa teriyaki, mayonesa kimuchi y almendras.",
+        "ca": "Tàrtar de surimi i cogombre, cobert de salmó flamejat, salsa teriyaki, maionesa kimuchi i ametlles.",
+        "en": "Surimi tartar with cucumber, covered with flamed salmon, teriyaki sauce, kimuchi mayonnaise, and almonds."
+      },
+      "allergens": [
+        1,
+        4,
+        5,
+        8,
+        13,
+        14
+      ],
+      "spicy": true,
+      "vegan": false
+    },
+    {
+      "code": "216",
+      "category": "uramaki",
+      "name": {
+        "es": "Mango Alaskan roll",
+        "ca": "Mango Alaskan roll",
+        "en": "Mango Alaskan roll"
+      },
+      "desc": {
+        "es": "Tartar de surimi y pepino, crema de aguacate, gamba cocida, mango, salsa de mango y masago arare.",
+        "ca": "Tàrtar de surimi i cogombre, crema d'alvocat, gamba cuita, mango, salsa de mango i masago arare.",
+        "en": "Surimi tartar with cucumber, avocado cream, cooked shrimp, mango, mango sauce, and masago arare."
+      },
+      "allergens": [
+        1,
+        2,
+        4,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "217",
+      "category": "uramaki",
+      "name": {
+        "es": "Alaskan passion",
+        "ca": "Alaskan passion",
+        "en": "Fusión marina"
+      },
+      "desc": {
+        "es": "Tartar de surimi y pepino, crema de aguacate, gamba cocida, mayonesa y tobiko.",
+        "ca": "Tàrtar de surimi i cogombre, crema d'alvocat, gamba cuita, maionesa i tobiko.",
+        "en": "Surimi tartar with cucumber, avocado cream, cooked shrimp, mayonnaise, and tobiko."
+      },
+      "allergens": [
+        1,
+        2,
+        4,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "218",
+      "category": "uramaki",
+      "name": {
+        "es": "Fusión México",
+        "ca": "Fusión México",
+        "en": "Fusion Mexico"
+      },
+      "desc": {
+        "es": "Tempura de langostino con mayonesa, salmón picado, salsa picante, salsa teriyaki, chips de maíz, sésamo.",
+        "ca": "Tempura de llagostí amb maionesa, salmó picat, salsa picant, salsa teriyaki, xips de blat de moro, sèsam.",
+        "en": "Tempura shrimp with mayonnaise, chopped salmon, spicy sauce, teriyaki sauce, corn chips, and sesame seeds."
+      },
+      "allergens": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        11,
+        12,
+        14
+      ],
+      "spicy": true,
+      "vegan": false
+    },
+    {
+      "code": "219",
+      "category": "uramaki",
+      "name": {
+        "es": "Flor de mar",
+        "ca": "Flor de mar",
+        "en": "Flor de mar"
+      },
+      "desc": {
+        "es": "Tempura de langostino con mayonesa, crema de aguacate, salmón picante, salsa anguila, pistacho molido.",
+        "ca": "Tempura de llagostí amb maionesa, crema d'alvocat, salmó picant, salsa d'anguila, festuc mòlt.",
+        "en": "Tempura shrimp with mayonnaise, avocado cream, spicy salmon, eel sauce, and ground pistachio."
+      },
+      "allergens": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        12,
+        14
+      ],
+      "spicy": true,
+      "vegan": false
+    },
+    {
+      "code": "220",
+      "category": "uramaki",
+      "name": {
+        "es": "Las Vegas",
+        "ca": "Las Vegas",
+        "en": "Las Vegas"
+      },
+      "desc": {
+        "es": "Tempura de langostino con mayonesa, cubiertos de salmón y queso flameado, salsa teriyaki.",
+        "ca": "Tempura de llagostí amb maionesa, cobert de salmó i formatge flamejat, salsa teriyaki.",
+        "en": "Tempura shrimp with mayonnaise, covered with salmon and flamed cheese, teriyaki sauce."
+      },
+      "allergens": [
+        1,
+        2,
+        4,
+        8,
+        12,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "221",
+      "category": "uramaki",
+      "name": {
+        "es": "Uramaki dragón",
+        "ca": "Uramaki dragón",
+        "en": "Uramaki dragon"
+      },
+      "desc": {
+        "es": "Tempura de langostino con mayonesa, cubiertos de salmón, crema de aguacate, salsa teriyaki, mayonesa y tobiko.",
+        "ca": "Tempura de llagostí amb maionesa, cobert de salmó, crema d'alvocat, salsa teriyaki, maionesa i tobiko.",
+        "en": "Tempura shrimp with mayonnaise, topped with salmon, avocado cream, teriyaki sauce, mayonnaise, and tobiko."
+      },
+      "allergens": [
+        1,
+        2,
+        4,
+        8,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "222",
+      "category": "uramaki",
+      "name": {
+        "es": "Uramaki cheese dragón",
+        "ca": "Uramaki cheese dragón",
+        "en": "Uramaki cheese dragon"
+      },
+      "desc": {
+        "es": "Tempura de langostino con mayonesa, cubiertos de salmón y queso crema.",
+        "ca": "Tempura de llagostí amb maionesa, cobert de salmó i formatge cremós.",
+        "en": "Tempura shrimp with mayonnaise, topped with salmon and cream cheese."
+      },
+      "allergens": [
+        2,
+        4,
+        12,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "223",
+      "category": "uramaki",
+      "name": {
+        "es": "Uramaki chicken kimono",
+        "ca": "Uramaki chicken kimono",
+        "en": "Uramaki chicken kimono"
+      },
+      "desc": {
+        "es": "Pollo rebozado con lechuga, salsa teriyaki, salsa kimchi, cebolla frita.",
+        "ca": "Pollastre arrebossat amb enciam, salsa teriyaki, salsa kimchi, ceba fregida.",
+        "en": "Breaded chicken with lettuce, teriyaki sauce, kimchi sauce, and fried onion."
+      },
+      "allergens": [
+        1,
+        8,
+        12,
+        13,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "224",
+      "category": "uramaki",
+      "name": {
+        "es": "Spicy chicken roll",
+        "ca": "Spicy chicken roll",
+        "en": "Spicy chicken roll"
+      },
+      "desc": {
+        "es": "Pollo rebozado con lechuga, cubiertos de salmón flameado, salsa kimuchi y teriyaki, almendras.",
+        "ca": "Pollastre arrebossat amb enciam, cobert de salmó flamejat, salsa kimuchi i teriyaki, ametlles.",
+        "en": "Breaded chicken with lettuce, topped with flamed salmon, kimuchi sauce, teriyaki sauce, and almonds."
+      },
+      "allergens": [
+        1,
+        5,
+        8,
+        12,
+        13,
+        14
+      ],
+      "spicy": true,
+      "vegan": false
+    },
+    {
+      "code": "225",
+      "category": "uramaki",
+      "name": {
+        "es": "Chicken arare",
+        "ca": "Chicken arare",
+        "en": "Chicken arare"
+      },
+      "desc": {
+        "es": "Pollo rebozado con lechuga, crema de aguacate, salsa teriyaki, mayonesa y masago arare.",
+        "ca": "Pollastre arrebossat amb enciam, crema d'alvocat, salsa teriyaki, maionesa i masago arare.",
+        "en": "Breaded chicken with lettuce, avocado cream, teriyaki sauce, mayonnaise, and masago arare."
+      },
+      "allergens": [
+        1,
+        8,
+        12,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "226",
+      "category": "uramaki",
+      "name": {
+        "es": "Chicken cream roll",
+        "ca": "Chicken cream roll",
+        "en": "Chicken cream roll"
+      },
+      "desc": {
+        "es": "Pollo rebozado con lechuga, crema de aguacate, queso crema, pistacho molido.",
+        "ca": "Pollastre arrebossat amb enciam, crema d'alvocat, formatge cremós, festuc mòlt.",
+        "en": "Breaded chicken with lettuce, avocado cream, cream cheese and ground pistachio."
+      },
+      "allergens": [
+        1,
+        5,
+        12,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "227",
+      "category": "uramaki",
+      "name": {
+        "es": "Uramaki vegetal",
+        "ca": "Uramaki vegetal",
+        "en": "Uramaki vegetal"
+      },
+      "desc": {
+        "es": "Aguacate y pepino, sésamo, salsa teriyaki.",
+        "ca": "Alvocat i cogombre, sèsam, salsa teriyaki.",
+        "en": "Avocado and cucumber with sesame and teriyaki sauce."
+      },
+      "allergens": [
+        1,
+        8,
+        11
+      ],
+      "spicy": false,
+      "vegan": true
+    },
+    {
+      "code": "228",
+      "category": "uramaki",
+      "name": {
+        "es": "Tropical green roll",
+        "ca": "Tropical green roll",
+        "en": "Tropical green roll"
+      },
+      "desc": {
+        "es": "Aguacate y pepino, crema de aguacate, mango, salsa de mango.",
+        "ca": "Alvocat i cogombre, crema d'alvocat, mango, salsa de mango.",
+        "en": "Avocado and cucumber, avocado cream, mango, and mango sauce."
+      },
+      "allergens": [],
+      "spicy": false,
+      "vegan": true
+    },
+    {
+      "code": "229",
+      "category": "uramaki",
+      "name": {
+        "es": "Banana roll",
+        "ca": "Banana roll",
+        "en": "Banana roll"
+      },
+      "desc": {
+        "es": "Plátano, coco rallado, salsa de mango.",
+        "ca": "Plàtan, coco ratllat, salsa de mango.",
+        "en": "Banana with shredded coconut and mango sauce."
+      },
+      "allergens": [],
+      "spicy": false,
+      "vegan": true
+    },
+    {
+      "code": "230",
+      "category": "uramaki",
+      "name": {
+        "es": "King roll",
+        "ca": "King roll",
+        "en": "King roll"
+      },
+      "desc": {
+        "es": "Queso crema y aguacate, cubiertos de salmón flameado, salsa anguila y pistacho molido.",
+        "ca": "Formatge cremós i alvocat, cobert de salmó flamejat, salsa d'anguila i festuc mòlt.",
+        "en": "Cream cheese and avocado, covered with flamed salmon, eel sauce, and ground pistachio."
+      },
+      "allergens": [
+        1,
+        4,
+        5,
+        8,
+        12,
+        13,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "231",
+      "category": "uramaki",
+      "name": {
+        "es": "Maki salmón",
+        "ca": "Maki salmó",
+        "en": "Salmon maki"
+      },
+      "desc": {
+        "es": "Maki de salmón.",
+        "ca": "Maki de salmó.",
+        "en": "Salmon maki."
+      },
+      "allergens": [
+        4
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "232",
+      "category": "uramaki",
+      "name": {
+        "es": "Maki atún",
+        "ca": "Maki tonyina",
+        "en": "Tuna maki"
+      },
+      "desc": {
+        "es": "Maki de atún.",
+        "ca": "Maki de tonyina.",
+        "en": "Tuna maki."
+      },
+      "allergens": [
+        4
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "233",
+      "category": "maki",
+      "name": {
+        "es": "Maki aguacate",
+        "ca": "Maki alvocat",
+        "en": "Avocado maki"
+      },
+      "desc": {
+        "es": "Maki de aguacate.",
+        "ca": "Maki d'alvocat.",
+        "en": "Avocado maki."
+      },
+      "allergens": [],
+      "spicy": false,
+      "vegan": true
+    },
+    {
+      "code": "234",
+      "category": "maki",
+      "name": {
+        "es": "Hosomaki salmón aguacate",
+        "ca": "Hosomaki sake alvocat",
+        "en": "Hosomaki sake avocado"
+      },
+      "desc": {
+        "es": "Salmón y aguacate.",
+        "ca": "Salmó i alvocat.",
+        "en": "Salmon and avocado."
+      },
+      "allergens": [
+        4
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "235",
+      "category": "maki",
+      "name": {
+        "es": "Maki tempura mango",
+        "ca": "Maki tempura mango",
+        "en": "Maki tempura mango"
+      },
+      "desc": {
+        "es": "Tempura de salmón, queso crema, salsa de mango y kataifi.",
+        "ca": "Tempura de salmó, formatge cremós, salsa de mango i kataifi.",
+        "en": "Salmon tempura, cream cheese, mango sauce, and kataifi."
+      },
+      "allergens": [
+        1,
+        4,
+        12,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "236",
+      "category": "maki",
+      "name": {
+        "es": "Crispy fire roll",
+        "ca": "Crispy fire roll",
+        "en": "Crispy fire roll"
+      },
+      "desc": {
+        "es": "Tempura de salmón, salmón picante, salsa anguila y pistacho molido.",
+        "ca": "Tempura de salmó, salmó picant, salsa d'anguila i festuc mòlt.",
+        "en": "Salmon tempura, spicy salmon, eel sauce, and ground pistachio."
+      },
+      "allergens": [
+        1,
+        4,
+        5,
+        8,
+        14
+      ],
+      "spicy": true,
+      "vegan": false
+    },
+    {
+      "code": "237",
+      "category": "maki",
+      "name": {
+        "es": "Tempura maki arare",
+        "ca": "Tempura maki arare",
+        "en": "Tempura maki arare"
+      },
+      "desc": {
+        "es": "Tempura de salmón, salmón picante, salsa teriyaki, crema de aguacate, masago arare.",
+        "ca": "Tempura de salmó, salmó picant, salsa teriyaki, crema d'alvocat, masago arare.",
+        "en": "Salmon tempura, spicy salmon, teriyaki sauce, avocado cream, and masago arare."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        14
+      ],
+      "spicy": true,
+      "vegan": false
+    },
+    {
+      "code": "238",
+      "category": "maki",
+      "name": {
+        "es": "Sake tempura",
+        "ca": "Sake tempura",
+        "en": "Sake tempura"
+      },
+      "desc": {
+        "es": "Tempura de salmón, aguacate y queso crema, salsa teriyaki, mayonesa kimuchi, cebolla frita.",
+        "ca": "Tempura de salmó, alvocat i formatge cremós, salsa teriyaki, maionesa kimuchi, ceba fregida.",
+        "en": "Salmon tempura, avocado, and cream cheese, teriyaki sauce, kimuchi mayonnaise, and crispy fried onion."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        12,
+        13,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "239",
+      "category": "maki",
+      "name": {
+        "es": "Pekín roll",
+        "ca": "Pekín roll",
+        "en": "Pekin roll"
+      },
+      "desc": {
+        "es": "Pato y pepino, salsa de pato, sésamo.",
+        "ca": "Ànec i cogombre, salsa d'ànec, sèsam.",
+        "en": "Duck and cucumber with duck sauce and sesame."
+      },
+      "allergens": [
+        8,
+        11
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "240",
+      "category": "maki",
+      "name": {
+        "es": "Temaki salmón",
+        "ca": "Temaki salmó",
+        "en": "Salmon temaki"
+      },
+      "desc": {
+        "es": "Salmón con aguacate, salsa teriyaki y sésamo.",
+        "ca": "Salmó amb alvocat, salsa teriyaki i sèsam.",
+        "en": "Salmon with avocado, teriyaki sauce, and sesame."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        11
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "301",
+      "category": "nigiri",
+      "name": {
+        "es": "Nigiri salmón",
+        "ca": "Nigiri salmó",
+        "en": "Salmon nigiri"
+      },
+      "desc": {
+        "es": "Nigiri de salmón.",
+        "ca": "Nigiri de salmó.",
+        "en": "Salmon nigiri."
+      },
+      "allergens": [
+        4
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "302",
+      "category": "nigiri",
+      "name": {
+        "es": "Nigiri atún",
+        "ca": "Nigiri tonyina",
+        "en": "Tuna nigiri"
+      },
+      "desc": {
+        "es": "Nigiri de atún.",
+        "ca": "Nigiri de tonyina.",
+        "en": "Tuna nigiri."
+      },
+      "allergens": [
+        4
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "303",
+      "category": "nigiri",
+      "name": {
+        "es": "Nigiri gamba",
+        "ca": "Nigiri gamba",
+        "en": "Shrimp nigiri"
+      },
+      "desc": {
+        "es": "Nigiri de gamba.",
+        "ca": "Nigiri de gamba.",
+        "en": "Shrimp nigiri."
+      },
+      "allergens": [
+        2
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "304",
+      "category": "nigiri",
+      "name": {
+        "es": "Nigiri dorada",
+        "ca": "Nigiri daurada",
+        "en": "Sea bream nigiri"
+      },
+      "desc": {
+        "es": "Nigiri de dorada.",
+        "ca": "Nigiri de daurada.",
+        "en": "Sea bream nigiri."
+      },
+      "allergens": [
+        4
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "305",
+      "category": "nigiri",
+      "name": {
+        "es": "Nigiri salmón queso crema",
+        "ca": "Nigiri salmó crema formatge",
+        "en": "Salmon nigiri with cream cheese"
+      },
+      "desc": {
+        "es": "Salmón, queso crema.",
+        "ca": "Salmó, formatge cremós.",
+        "en": "Salmon and cream cheese."
+      },
+      "allergens": [
+        4,
+        12
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "306",
+      "category": "nigiri",
+      "name": {
+        "es": "Nigiri salmón flameado",
+        "ca": "Nigiri salmó flametjat",
+        "en": "Flamed salmon nigiri"
+      },
+      "desc": {
+        "es": "Salmón flameado, salsa teriyaki, pistacho molido.",
+        "ca": "Salmó flamejat, salsa teriyaki, festuc mòlt.",
+        "en": "Flamed salmon, teriyaki sauce, and ground pistachio."
+      },
+      "allergens": [
+        1,
+        4,
+        5,
+        8,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "307",
+      "category": "nigiri",
+      "name": {
+        "es": "Nigiri salmón queso flameado",
+        "ca": "Nigiri salmó formatge flametjat",
+        "en": "Salmon nigiri with flamed cheese"
+      },
+      "desc": {
+        "es": "Salmón flameado con queso, salsa teriyaki.",
+        "ca": "Salmó flamejat amb formatge, salsa teriyaki.",
+        "en": "Flamed salmon with cheese and teriyaki sauce."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        12
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "308",
+      "category": "nigiri",
+      "name": {
+        "es": "Nigiri salmón flameado con queso crema",
+        "ca": "Nigiri salmó flametjat amb crema formatge",
+        "en": "Flamed salmon nigiri with cream cheese"
+      },
+      "desc": {
+        "es": "Nigiri flameado con queso crema, kataifi.",
+        "ca": "Nigiri flamejat amb formatge cremós, kataifi.",
+        "en": "Flamed nigiri with cream cheese and kataifi."
+      },
+      "allergens": [
+        1,
+        4,
+        12
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "309",
+      "category": "nigiri",
+      "name": {
+        "es": "Nigiri anguila",
+        "ca": "Nigiri anguila",
+        "en": "Eel nigiri"
+      },
+      "desc": {
+        "es": "Nigiri de anguila, salsa anguila, furikake.",
+        "ca": "Nigiri d'anguila, salsa d'anguila, furikake.",
+        "en": "Eel nigiri with eel sauce and furikake."
+      },
+      "allergens": [
+        1,
+        4,
+        8
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "310",
+      "category": "nigiri",
+      "name": {
+        "es": "Nigiri brie",
+        "ca": "Nigiri brie",
+        "en": "Brie nigiri"
+      },
+      "desc": {
+        "es": "Nigiri brie, salsa anguila.",
+        "ca": "Nigiri brie, salsa d'anguila.",
+        "en": "Brie nigiri with eel sauce."
+      },
+      "allergens": [
+        1,
+        8,
+        12
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "311",
+      "category": "nigiri",
+      "name": {
+        "es": "Nigiri aguacate",
+        "ca": "Nigiri alvocat",
+        "en": "Avocado nigiri"
+      },
+      "desc": {
+        "es": "Nigiri de aguacate, furikake.",
+        "ca": "Nigiri d'alvocat, furikake.",
+        "en": "Avocado nigiri with furikake."
+      },
+      "allergens": [
+        4,
+        11,
+        12,
+        13,
+        14
+      ],
+      "spicy": false,
+      "vegan": true
+    },
+    {
+      "code": "312",
+      "category": "nigiri",
+      "name": {
+        "es": "Gunkan salmón",
+        "ca": "Gunkan salmó",
+        "en": "Salmon gunkan"
+      },
+      "desc": {
+        "es": "Gunkan de salmón, mayonesa kimuchi, sésamo.",
+        "ca": "Gunkan de salmó, maionesa kimuchi, sèsam.",
+        "en": "Salmon gunkan with kimuchi mayonnaise and sesame."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        11,
+        12,
+        13
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "313",
+      "category": "gunkan",
+      "name": {
+        "es": "Gunkan salmón flameado",
+        "ca": "Gunkan salmó flametjat",
+        "en": "Flamed salmon gunkan"
+      },
+      "desc": {
+        "es": "Gunkan de salmón flameado, salmón picado, mayonesa kimuchi y teriyaki, sésamo.",
+        "ca": "Gunkan de salmó flamejat, salmó picat, maionesa kimuchi i teriyaki, sèsam.",
+        "en": "Flamed salmon gunkan with chopped salmon, kimuchi mayonnaise, teriyaki sauce, and sesame."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        11,
+        13
+      ],
+      "spicy": true,
+      "vegan": false
+    },
+    {
+      "code": "314",
+      "category": "gunkan",
+      "name": {
+        "es": "Gunkan tobiko",
+        "ca": "Gunkan tobigo",
+        "en": "Tobiko gunkan"
+      },
+      "desc": {
+        "es": "Gunkan de huevas de pez volador.",
+        "ca": "Gunkan d'ous de peix volador.",
+        "en": "Flying fish roe gunkan."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        11
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "315",
+      "category": "gunkan",
+      "name": {
+        "es": "Tartar de salmón",
+        "ca": "Tàrtar salmó",
+        "en": "Salmon tartare"
+      },
+      "desc": {
+        "es": "Tartar de salmón, aguacate, salsa ponzu, sésamo.",
+        "ca": "Tàrtar de salmó, alvocat, salsa ponzu, sèsam.",
+        "en": "Salmon and avocado tartar with ponzu sauce and sesame."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        11
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "316",
+      "category": "gunkan",
+      "name": {
+        "es": "Tartar de atún y mango",
+        "ca": "Tàrtar tonyina mango",
+        "en": "Tuna tartare with mango"
+      },
+      "desc": {
+        "es": "Tartar de atún, aguacate, mango, salsa ponzu, sésamo.",
+        "ca": "Tàrtar de tonyina, alvocat, mango, salsa ponzu, sèsam.",
+        "en": "Tuna, avocado and mango tartar with ponzu sauce and sesame."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        11
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "317",
+      "category": "gunkan",
+      "name": {
+        "es": "Mini donburi salmón",
+        "ca": "Mini donburi salmó",
+        "en": "Mini salmon donburi"
+      },
+      "desc": {
+        "es": "Arroz, aguacate, salmón, mayonesa kimuchi, salsa teriyaki, sésamo.",
+        "ca": "Arròs, alvocat, salmó, maionesa kimuchi, salsa teriyaki, sèsam.",
+        "en": "Rice, avocado, salmon, kimuchi mayonnaise, teriyaki sauce, and sesame."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        11,
+        13,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "318",
+      "category": "gunkan",
+      "name": {
+        "es": "Mini donburi atún",
+        "ca": "Mini donburi tonyina",
+        "en": "Mini tuna donburi"
+      },
+      "desc": {
+        "es": "Arroz, aguacate, atún, mayonesa kimuchi, salsa teriyaki, sésamo.",
+        "ca": "Arròs, alvocat, tonyina, maionesa kimuchi, salsa teriyaki, sèsam.",
+        "en": "Rice, avocado, tuna, kimuchi mayonnaise, teriyaki sauce, and sesame."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        11,
+        14
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "319",
+      "category": "chirashi",
+      "name": {
+        "es": "Mini donburi anguila",
+        "ca": "Mini donburi anguila",
+        "en": "Mini eel donburi"
+      },
+      "desc": {
+        "es": "Arroz, aguacate, anguila, salsa anguila, sésamo.",
+        "ca": "Arròs, alvocat, anguila, salsa d'anguila, sèsam.",
+        "en": "Rice, avocado, eel, eel sauce, and sesame."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        11
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "320",
+      "category": "chirashi",
+      "name": {
+        "es": "Ceviche de salmón",
+        "ca": "Ceviche salmó",
+        "en": "Salmon ceviche"
+      },
+      "desc": {
+        "es": "Cebolla, aguacate, salmón, salsa ponzu, sésamo.",
+        "ca": "Ceba, alvocat, salmó, salsa ponzu, sèsam.",
+        "en": "Onion, avocado, salmon, ponzu sauce, sesame."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        11
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "321",
+      "category": "chirashi",
+      "name": {
+        "es": "Carpaccio de salmón",
+        "ca": "Carpaccio salmó",
+        "en": "Salmon carpaccio"
+      },
+      "desc": {
+        "es": "Salmón, mango, salsa ponzu.",
+        "ca": "Salmó, mango, salsa ponzu.",
+        "en": "Salmon, mango, ponzu sauce."
+      },
+      "allergens": [
+        1,
+        4,
+        8
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "322",
+      "category": "chirashi",
+      "name": {
+        "es": "Carpaccio de atún",
+        "ca": "Carpaccio tonyina",
+        "en": "Tuna carpaccio"
+      },
+      "desc": {
+        "es": "Atún, mango, salsa ponzu.",
+        "ca": "Tonyina, mango, salsa ponzu.",
+        "en": "Tuna, mango, ponzu sauce."
+      },
+      "allergens": [
+        1,
+        4,
+        8
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "323",
+      "category": "chirashi",
+      "name": {
+        "es": "Sashimi de salmón",
+        "ca": "Sashimi salmó",
+        "en": "Salmon sashimi"
+      },
+      "desc": {
+        "es": "Sashimi de salmón.",
+        "ca": "Sashimi de salmó.",
+        "en": "Salmon sashimi."
+      },
+      "allergens": [
+        4
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "324",
+      "category": "chirashi",
+      "name": {
+        "es": "Sashimi de atún",
+        "ca": "Sashimi tonyina",
+        "en": "Tuna sashimi"
+      },
+      "desc": {
+        "es": "Sashimi de atún. Solo una ración/persona, cada ración extra 2€.",
+        "ca": "Sashimi de tonyina. Només una ració/persona, cada ració extra 2€.",
+        "en": "Tuna sashimi. One serving per person, each extra serving 2€."
+      },
+      "allergens": [
+        4
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "325",
+      "category": "tataki",
+      "name": {
+        "es": "Tataki de salmón",
+        "ca": "Tataki salmó",
+        "en": "Salmon tataki"
+      },
+      "desc": {
+        "es": "Salmón flameado, salsa tataki, shichimi, sésamo. Cada ración extra 1€.",
+        "ca": "Salmó flamejat, salsa tataki, shichimi, sèsam. Cada ració extra 1€.",
+        "en": "Flamed salmon, tataki sauce, shichimi, sesame. Each extra serving 1€."
+      },
+      "allergens": [
+        1,
+        4,
+        5,
+        11,
+        12
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "326",
+      "category": "tataki",
+      "name": {
+        "es": "Tataki de ternera",
+        "ca": "Tataki vedella",
+        "en": "Beef tataki"
+      },
+      "desc": {
+        "es": "Ternera flameada, salsa tataki, shichimi, sésamo.",
+        "ca": "Vedella flamejada, salsa tataki, shichimi, sèsam.",
+        "en": "Flamed beef, tataki sauce, shichimi, sesame."
+      },
+      "allergens": [
+        1,
+        5,
+        11,
+        12
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "327",
+      "category": "tataki",
+      "name": {
+        "es": "Rollo de salmón con aguacate",
+        "ca": "Rotllo de salmó amb alvocat",
+        "en": "Salmon roll with avocado"
+      },
+      "desc": {
+        "es": "Rollo de salmón, aguacate, queso crema, tobigo y kataifi.",
+        "ca": "Rotllo de salmó, alvocat, formatge cremós, tobigo i kataifi.",
+        "en": "Salmon roll, avocado, cream cheese, tobiko, and kataifi."
+      },
+      "allergens": [
+        4,
+        12
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "328",
+      "category": "tataki",
+      "name": {
+        "es": "Rollo de salmón con queso crema",
+        "ca": "Rotllo de salmó amb formatge cremós",
+        "en": "Salmon roll with cream cheese"
+      },
+      "desc": {
+        "es": "Rollo de salmón, queso crema, kataifi.",
+        "ca": "Rotllo de salmó, formatge cremós, kataifi.",
+        "en": "Salmon roll, cream cheese, kataifi."
+      },
+      "allergens": [
+        1,
+        4,
+        12
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "329",
+      "category": "tataki",
+      "name": {
+        "es": "Nachos de salmón",
+        "ca": "Nachos de salmó",
+        "en": "Salmon nachos"
+      },
+      "desc": {
+        "es": "Nachos, salmón picante, cebolla, aguacate, tomate, salsa picante, mayonesa kimuchi, sésamo.",
+        "ca": "Nachos, salmó picant, ceba, alvocat, tomàquet, salsa picant, maionesa kimuchi, sèsam.",
+        "en": "Nachos, spicy salmon, onion, avocado, tomato, spicy sauce, kimuchi mayonnaise, sesame."
+      },
+      "allergens": [
+        1,
+        4,
+        5,
+        11,
+        12,
+        13
+      ],
+      "spicy": true,
+      "vegan": false
+    },
+    {
+      "code": "330",
+      "category": "tataki",
+      "name": {
+        "es": "Nachos de atún",
+        "ca": "Nachos de tonyina",
+        "en": "Tuna nachos"
+      },
+      "desc": {
+        "es": "Nachos, atún picante, cebolla, aguacate, tomate, salsa picante, mayonesa kimuchi, sésamo.",
+        "ca": "Nachos, tonyina picant, ceba, alvocat, tomàquet, salsa picant, maionesa kimuchi, sèsam.",
+        "en": "Nachos, spicy tuna, onion, avocado, tomato, spicy sauce, kimuchi mayonnaise, sesame."
+      },
+      "allergens": [
+        1,
+        4,
+        5,
+        11,
+        12,
+        13
+      ],
+      "spicy": true,
+      "vegan": false
+    },
+    {
+      "code": "331",
+      "category": "poke",
+      "name": {
+        "es": "Pokebowl de salmón",
+        "ca": "Pokebowl de salmó",
+        "en": "Salmon pokebowl"
+      },
+      "desc": {
+        "es": "Arroz, salmón, wakame, mango, maíz, tomate, salsa teriyaki.",
+        "ca": "Arròs, salmó, wakame, mango, blat de moro, tomàquet, salsa teriyaki.",
+        "en": "Rice, salmon, wakame, mango, corn, tomato, teriyaki sauce."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        11
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "332",
+      "category": "poke",
+      "name": {
+        "es": "Pokebowl vegetal",
+        "ca": "Pokebowl vegetal",
+        "en": "Vegetable pokebowl"
+      },
+      "desc": {
+        "es": "Arroz, wakame, mango, maíz, tomate, salsa teriyaki.",
+        "ca": "Arròs, wakame, mango, blat de moro, tomàquet, salsa teriyaki.",
+        "en": "Rice, wakame, mango, corn, tomato, teriyaki sauce."
+      },
+      "allergens": [
+        1,
+        8,
+        11
+      ],
+      "spicy": false,
+      "vegan": true
+    },
+    {
+      "code": "333",
+      "category": "poke",
+      "name": {
+        "es": "Sake poteto furai",
+        "ca": "Sake poteto furai",
+        "en": "Sake poteto furai"
+      },
+      "desc": {
+        "es": "Aperitivo de patatas, crema de aguacate, salmón picante, salsa teriyaki, masago arare.",
+        "ca": "Aperitiu de patates, crema d'alvocat, salmó picant, salsa teriyaki, masago arare.",
+        "en": "Potato appetizer, avocado cream, spicy salmon, teriyaki sauce, masago arare."
+      },
+      "allergens": [
+        1,
+        4,
+        8
+      ],
+      "spicy": true,
+      "vegan": false
+    },
+    {
+      "code": "334",
+      "category": "poke",
+      "name": {
+        "es": "Galleta de salmón",
+        "ca": "Galeta de salmó",
+        "en": "Sake biscuit"
+      },
+      "desc": {
+        "es": "Galleta, crema de aguacate, queso crema, pistacho molido.",
+        "ca": "Galeta, crema d'alvocat, formatge cremós, festuc mòlt.",
+        "en": "Cookie, avocado cream, cream cheese, crushed pistachio."
+      },
+      "allergens": [
+        1,
+        5,
+        12,
+        13
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "335",
+      "category": "poke",
+      "name": {
+        "es": "Sake adobado sando",
+        "ca": "Sake adobado sando",
+        "en": "Sake adobado sando"
+      },
+      "desc": {
+        "es": "Pan tostado, salmón, crema de aguacate, queso crema, salsa teriyaki, masago arare.",
+        "ca": "Pa torrat, salmó, crema d'alvocat, formatge cremós, salsa teriyaki, masago arare.",
+        "en": "Toasted bread, salmon, avocado cream, cream cheese, teriyaki sauce, masago arare."
+      },
+      "allergens": [
+        1,
+        4,
+        8,
+        12
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "400",
+      "category": "especial",
+      "name": {
+        "es": "Nigiri mixto",
+        "ca": "Nigiri mixte",
+        "en": "Mixed nigiri"
+      },
+      "desc": {
+        "es": "Surtido de 8 nigiris.",
+        "ca": "Assortiment de 8 nigiris.",
+        "en": "Assortment of 8 nigiris."
+      },
+      "allergens": [
+        4
+      ],
+      "spicy": false,
+      "vegan": false
+    },
+    {
+      "code": "401",
+      "category": "especial",
+      "name": {
+        "es": "Combo box",
+        "ca": "Combo box",
+        "en": "Combo box"
+      },
+      "desc": {
+        "es": "Surtido de 4 nigiris, 8 makis y 4 sashimis.",
+        "ca": "Assortiment de 4 nigiris, 8 makis i 4 sashimis.",
+        "en": "Assortment of 4 nigiris, 8 makis, and 4 sashimis."
+      },
+      "allergens": [
+        4,
+        11
+      ],
+      "spicy": false,
+      "vegan": false
+    }
+  ]
+}

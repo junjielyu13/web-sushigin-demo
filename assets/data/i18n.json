@@ -35,7 +35,7 @@
   "stat.dishesLbl":{"es": "especialidades en carta", "ca": "especialitats a la carta", "en": "specialities on the menu"},
   "stat.infLbl":   {"es": "buffet libre, plato a plato", "ca": "buffet lliure, plat a plat", "en": "all-you-can-eat, plate by plate"},
   "stat.kids":     {"es": "Gratis",           "ca": "Gratis",             "en": "Free"},
-  "stat.kidsLbl":  {"es": "niños de menos de 1,3 m", "ca": "nens de menys d'1,3 m", "en": "kids under 1.3 m"},
+  "stat.kidsLbl":  {"es": "niños de hasta 1,3 m de altura", "ca": "nens de fins a 1,3 m d'alçada", "en": "kids up to 1.3 m tall"},
 
   "gallery.eyebrow":{"es": "La mesa",         "ca": "La taula",           "en": "The table"},
   "gallery.title": {"es": "Hecho para compartir", "ca": "Fet per compartir", "en": "Made to share"},

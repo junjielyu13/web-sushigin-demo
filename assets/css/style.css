@@ -250,6 +250,11 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 /* ============================================================
    RESERVATION
    ============================================================ */
+.reserve-note { max-width: 620px; margin: 0 auto 1.4rem; text-align: center; font-size: var(--step--1); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: .7rem 1.3rem; box-shadow: var(--shadow-soft); }
+.reserve-note::before { content: "ℹ"; color: var(--accent); font-weight: 700; margin-right: .5em; }
+.reserve-note a { color: var(--accent); font-weight: 700; white-space: nowrap; }
+.reserve-note a:hover { text-decoration: underline; }
+@media (max-width: 600px) { .reserve-note { border-radius: var(--radius); } }
 .reserve-wrap { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: clamp(1rem, 3vw, 2rem); box-shadow: var(--shadow-soft); overflow: hidden; }
 /* fixed height (no auto-resizer): the CoverManager resizer over-reported height
    and left a huge blank area below the widget. Side-by-side on desktop is short;

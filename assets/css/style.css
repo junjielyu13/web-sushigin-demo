@@ -193,7 +193,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
    CONCEPT (buffet infinity)
    ============================================================ */
 .concept { display: grid; grid-template-columns: 1.05fr .95fr; gap: clamp(2rem, 5vw, 4.5rem); align-items: center; }
-.concept__media { position: relative; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow); aspect-ratio: 4/5; }
+.concept__media { position: relative; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow); aspect-ratio: 4/3; }
 .concept__media img { width: 100%; height: 100%; object-fit: cover; }
 .concept__badge {
   position: absolute; left: 1.2rem; bottom: 1.2rem; background: var(--surface);

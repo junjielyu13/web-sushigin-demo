@@ -24,7 +24,7 @@
     <a class="brand" href="#home"><span class="mark">銀</span> SushiGin</a>
     <ul class="nav-links" id="navLinks">
       <li><a href="#concept" data-i18n="nav.concept">El buffet</a></li>
-      <li><a href="menu.html" data-i18n="nav.menu">Carta</a></li>
+      <li><a href="#menu" data-i18n="nav.menu">Carta</a></li>
       <li><a href="#gallery" data-i18n="nav.gallery">Galería</a></li>
       <li><a href="#reserve" data-i18n="nav.reserve">Reservar</a></li>
       <li><a href="#contact" data-i18n="nav.contact">Contacto</a></li>
@@ -52,7 +52,7 @@
       <p class="hero__tag" data-i18n="hero.tag">Pide plato a plato. Disfruta sin prisa.</p>
       <p class="hero__sub" data-i18n="hero.sub">Más de 140 especialidades japonesas y de fusión, preparadas al momento y servidas en tu mesa.</p>
       <div class="hero__cta">
-        <a class="btn btn--accent" href="menu.html" data-i18n="hero.ctaMenu">Ver la carta</a>
+        <a class="btn btn--accent" href="#menu" data-i18n="hero.ctaMenu">Ver la carta</a>
         <a class="btn btn--light" href="#reserve" data-i18n="hero.ctaReserve">Reservar mesa</a>
       </div>
       <a class="hero__scroll" href="#concept"><span class="line"></span><span data-i18n="hero.scroll">Descubre</span></a>
@@ -79,6 +79,19 @@
           <li><span class="num">03</span><span><b data-i18n="rule3.t">Sin desperdicio</b><span data-i18n="rule3.d">Pide lo que vayas a comer.</span></span></li>
           <li><span class="num">04</span><span><b data-i18n="rule4.t">Una bebida por persona</b><span data-i18n="rule4.d">Mínimo una bebida por comensal.</span></span></li>
         </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CARTA ===== -->
+  <section class="section" id="menu">
+    <div class="container center">
+      <span class="eyebrow" style="justify-content:center"><span class="kanji">献立</span><span data-i18n="menu.eyebrow">Carta</span></span>
+      <h2 class="section-title" data-i18n="menu.title">Nuestra carta</h2>
+      <p class="section-lead" style="margin-inline:auto" data-i18n="menu.lead">Más de 140 platos para tu buffet Infinity. Cada plato lleva su número.</p>
+      <div class="menu-pdf">
+        <a class="btn btn--accent" id="pdf-dine" href="images/SushiGin_ES.pdf" target="_blank" rel="noopener" data-i18n="menu.pdfDine">PDF · Carta</a>
+        <a class="btn btn--ghost" id="pdf-take" href="images/SushiGin_ES-llevar.pdf" target="_blank" rel="noopener" data-i18n="menu.pdfTake">PDF · Para llevar</a>
       </div>
     </div>
   </section>
@@ -223,6 +236,31 @@
     });
 
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // PDF links follow language (CA falls back to ES PDF; only ES & EN PDFs exist)
+    var PDF = {
+      es: ['images/SushiGin_ES.pdf', 'images/SushiGin_ES-llevar.pdf'],
+      ca: ['images/SushiGin_ES.pdf', 'images/SushiGin_ES-llevar.pdf'],
+      en: ['images/SushiGin_EN.pdf', 'images/SushiGin_EN-llevar.pdf']
+    };
+    document.addEventListener('langchange', function (e) {
+      var p = PDF[e.detail.lang] || PDF.es;
+      document.getElementById('pdf-dine').href = p[0];
+      document.getElementById('pdf-take').href = p[1];
+    });
+
+    // PDF buttons: open in a new tab (default link) AND trigger a download
+    ['pdf-dine', 'pdf-take'].forEach(function (id) {
+      document.getElementById(id).addEventListener('click', function () {
+        var url = this.getAttribute('href');
+        var a = document.createElement('a');
+        a.href = url;
+        a.download = url.split('/').pop();
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+      });
+    });
 
     // reservation iframe follows language
     var COVER = {

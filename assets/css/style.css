@@ -91,7 +91,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: .6em;
   padding: .85em 1.5em; border-radius: 999px; border: 1.5px solid transparent;
-  font-weight: 700; font-size: var(--step--1); line-height: 1; letter-spacing: .04em;
+  font-weight: 600; font-size: var(--step--1); line-height: 1; letter-spacing: .01em;
   transition: transform .25s var(--ease), background .25s var(--ease), color .25s var(--ease), border-color .25s var(--ease);
   white-space: nowrap;
 }

@@ -21,7 +21,7 @@
   }
   function allergenIcon(n) {
     var nm = allergenName(n).replace(/"/g, "&quot;");
-    return '<img class="allg" src="/images/allergens/' + n + '.png" alt="' + nm + '" title="' + nm + '" loading="lazy" />';
+    return '<img class="allg" src="images/allergens/' + n + '.png" alt="' + nm + '" title="' + nm + '" loading="lazy" />';
   }
 
   function catName(c) { return c.name[lang()] || c.name.en; }
@@ -71,7 +71,7 @@
 
         var row = document.createElement("article");
         row.className = "m-item";
-        var photo = '/images/menu/' + it.code + '.jpg';
+        var photo = 'images/menu/' + it.code + '.jpg';
         // photo (hidden gracefully if it fails to load)
         var imgHtml = '<img class="m-item__photo" src="' + photo + '" alt="' + name.replace(/"/g, '&quot;') +
           '" loading="lazy" onerror="this.closest(\'.m-item\').classList.add(\'no-photo\');this.remove();" />';
@@ -128,7 +128,7 @@
     tabsEl = document.getElementById("menu-tabs");
     bodyEl = document.getElementById("menu-body");
     if (!tabsEl || !bodyEl) return;
-    fetch("/assets/data/menu.json")
+    fetch("assets/data/menu.json")
       .then(function (r) { return r.json(); })
       .then(function (json) { data = json; render(); })
       .catch(function () { bodyEl.innerHTML = '<p class="menu-note">No se pudo cargar la carta. / Menu could not be loaded.</p>'; });

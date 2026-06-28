@@ -1,11 +1,7 @@
 {
   "framework": null,
-  "buildCommand": "SHA=$(echo \"${VERCEL_GIT_COMMIT_SHA:-local}\" | cut -c1-7); sed -i \"s/__COMMIT__/$SHA/g\" index.html v1/index.html v1/menu.html",
+  "buildCommand": "SHA=$(echo \"${VERCEL_GIT_COMMIT_SHA:-local}\" | cut -c1-7); sed -i \"s/__COMMIT__/$SHA/g\" index.html",
   "outputDirectory": ".",
-  "rewrites": [
-    { "source": "/v2", "destination": "/index.html" },
-    { "source": "/v2/", "destination": "/index.html" }
-  ],
   "redirects": [
     { "source": "/menu.html", "destination": "/#menu", "permanent": true },
     { "source": "/menu_es.html", "destination": "/#menu", "permanent": true },

@@ -66,7 +66,7 @@
 
   function init() {
     current = pickInitial();
-    fetch("assets/data/i18n.json")
+    fetch("/assets/data/i18n.json")
       .then(function (r) { return r.json(); })
       .then(function (json) {
         dict = json;

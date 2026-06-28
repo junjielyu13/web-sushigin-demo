@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SushiGin · Buffet japonés en Les Roquetes del Garraf</title>
-  <meta name="description" content="Restaurante japonés tipo buffet Infinity en Les Roquetes del Garraf, Barcelona. Más de 140 especialidades de sushi, fusión y wok, plato a plato. Reserva online." />
+  <meta name="description" content="Restaurante japonés tipo buffet Infinity en Les Roquetes del Garraf, Barcelona. Reserva online tu mesa y descarga la carta en PDF." />
   <link rel="icon" href="images/logo.png" />
   <script>document.documentElement.className += " js";</script>
 
@@ -13,9 +13,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="assets/css/style.css?v=11" />
-  <script src="assets/js/i18n.js?v=11" defer></script>
-  <script src="assets/js/gallery.js?v=11" defer></script>
+  <link rel="stylesheet" href="assets/css/style.css?v=12" />
+  <script src="assets/js/i18n.js?v=12" defer></script>
+  <script src="assets/js/gallery.js?v=12" defer></script>
 </head>
 <body>
 
@@ -23,10 +23,10 @@
   <nav class="site-nav" id="nav">
     <a class="brand" href="#home"><span class="mark">銀</span> SushiGin</a>
     <ul class="nav-links" id="navLinks">
-      <li><a href="#concept" data-i18n="nav.concept">El buffet</a></li>
-      <li><a href="menu.html" data-i18n="nav.menu">Carta</a></li>
-      <li><a href="#gallery" data-i18n="nav.gallery">Galería</a></li>
       <li><a href="#reserve" data-i18n="nav.reserve">Reservar</a></li>
+      <li><a href="#menu" data-i18n="nav.menu">Carta</a></li>
+      <li><a href="#concept" data-i18n="nav.concept">El buffet</a></li>
+      <li><a href="#gallery" data-i18n="nav.gallery">Galería</a></li>
       <li><a href="#contact" data-i18n="nav.contact">Contacto</a></li>
     </ul>
     <div class="nav-right">
@@ -40,8 +40,8 @@
   </nav>
   <div class="nav-scrim" id="navScrim" hidden></div>
 
-  <!-- ===== HERO ===== -->
-  <header class="hero" id="home">
+  <!-- ===== HERO (small) ===== -->
+  <header class="hero hero--sm" id="home">
     <div class="hero__media">
       <img src="images/gallery/ins-mix-nigiri-3.jpg" alt="Selección de nigiris de salmón en un plato de cerámica" fetchpriority="high" />
     </div>
@@ -50,17 +50,47 @@
       <span class="hero__eyebrow"><span class="dot"></span><span data-i18n="hero.eyebrow">Buffet japonés · Les Roquetes del Garraf</span></span>
       <h1 data-i18n="hero.title">Sushi a la carta,<br>sin límites</h1>
       <p class="hero__tag" data-i18n="hero.tag">Pide plato a plato. Disfruta sin prisa.</p>
-      <p class="hero__sub" data-i18n="hero.sub">Más de 140 especialidades japonesas y de fusión, preparadas al momento y servidas en tu mesa.</p>
       <div class="hero__cta">
-        <a class="btn btn--accent" href="menu.html" data-i18n="hero.ctaMenu">Ver la carta</a>
-        <a class="btn btn--light" href="#reserve" data-i18n="hero.ctaReserve">Reservar mesa</a>
+        <a class="btn btn--accent" href="#reserve" data-i18n="hero.ctaReserve">Reservar mesa</a>
       </div>
-      <a class="hero__scroll" href="#concept"><span class="line"></span><span data-i18n="hero.scroll">Descubre</span></a>
+      <a class="hero__scroll" href="#reserve"><span class="line"></span><span data-i18n="hero.scroll">Descubre</span></a>
     </div>
   </header>
 
+  <!-- ===== RESERVATION (first content block) ===== -->
+  <section class="section section--sand" id="reserve">
+    <div class="container">
+      <div class="center" style="margin-bottom:2.2rem">
+        <span class="eyebrow"><span class="kanji">予約</span><span data-i18n="reserve.eyebrow">Tu mesa te espera</span></span>
+        <h2 class="section-title" data-i18n="reserve.title">Reserva en segundos</h2>
+        <p class="section-lead" data-i18n="reserve.lead">Elige día, hora y número de comensales. Confirmación al instante.</p>
+      </div>
+      <p class="reserve-note" data-i18n="reserve.note">Para reservas a partir de 8 comensales, llama al <a href="tel:+34932473871">+34 932 47 38 71</a>.</p>
+      <div class="reserve-wrap">
+        <iframe id="reserve-iframe" title="Reservas SushiGin"
+          src="https://www.covermanager.com/reservation/module_restaurant/restaurante-sushigin/spanish"
+          allow="payment" frameborder="0" width="100%" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MENU (PDF download, second block) ===== -->
+  <section class="section" id="menu">
+    <div class="container">
+      <div class="center">
+        <span class="eyebrow" style="justify-content:center"><span class="kanji">献立</span><span data-i18n="menu.eyebrow">Carta</span></span>
+        <h2 class="section-title" data-i18n="menu.title">Nuestra carta</h2>
+        <p class="section-lead" data-i18n="menu.lead">Más de 140 platos para tu buffet Infinity. Cada plato lleva su número.</p>
+        <div class="menu-pdf" style="justify-content:center">
+          <a class="btn btn--accent" id="pdf-dine" href="images/SushiGin_ES.pdf" target="_blank" rel="noopener" data-i18n="menu.pdfDine">PDF · Carta</a>
+          <a class="btn btn--ghost" id="pdf-take" href="images/SushiGin_ES-llevar.pdf" target="_blank" rel="noopener" data-i18n="menu.pdfTake">PDF · Para llevar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ===== CONCEPT ===== -->
-  <section class="section" id="concept">
+  <section class="section section--sand" id="concept">
     <div class="container concept">
       <div class="concept__media reveal">
         <img src="images/gallery/ins-pokebowl.jpg" alt="Poke bowl y rolls de sushi servidos en mesa" loading="lazy" />
@@ -84,7 +114,7 @@
   </section>
 
   <!-- ===== STATS ===== -->
-  <section class="section section--sand section--tight">
+  <section class="section section--tight">
     <div class="container">
       <div class="center" style="margin-bottom:2.4rem">
         <span class="eyebrow"><span class="kanji">評判</span><span data-i18n="stats.eyebrow">Por qué nos eligen</span></span>
@@ -110,13 +140,12 @@
     </div>
   </section>
 
-  <!-- ===== GALLERY PREVIEW ===== -->
-  <section class="section" id="gallery">
+  <!-- ===== GALLERY (compact, near footer) ===== -->
+  <section class="section section--sand section--tight" id="gallery">
     <div class="container">
-      <div class="center" style="margin-bottom:2.6rem">
+      <div class="center" style="margin-bottom:1.8rem">
         <span class="eyebrow"><span class="kanji">食卓</span><span data-i18n="gallery.eyebrow">La mesa</span></span>
-        <h2 class="section-title" data-i18n="gallery.title">Hecho para compartir</h2>
-        <p class="section-lead" data-i18n="gallery.lead">Un vistazo a lo que sale de nuestra cocina cada día.</p>
+        <h2 class="section-title" style="font-size:var(--step-2)" data-i18n="gallery.title">Hecho para compartir</h2>
       </div>
       <div class="gallery-grid is-preview" id="galleryGrid" data-gallery>
         <button class="g-item" data-full="images/gallery/Gin-1057.jpg"><img src="images/gallery/thumbs/Gin-1057.jpg" alt="Roll de sushi con aguacate y alga wakame" loading="lazy" /></button>
@@ -125,32 +154,6 @@
         <button class="g-item" data-full="images/gallery/Gin-1065.jpg"><img src="images/gallery/thumbs/Gin-1065.jpg" alt="Plato de especialidad japonesa" loading="lazy" /></button>
         <button class="g-item" data-full="images/gallery/ins-sarten-de-pollo-5.jpg"><img src="images/gallery/thumbs/ins-sarten-de-pollo-5.jpg" alt="Salteado de pollo a la sartén" loading="lazy" /></button>
         <button class="g-item" data-full="images/gallery/Gin-1083.jpg"><img src="images/gallery/thumbs/Gin-1083.jpg" alt="Plato de sushi de SushiGin" loading="lazy" /></button>
-        <button class="g-item is-extra" data-full="images/gallery/Gin-1062.jpg"><img src="images/gallery/thumbs/Gin-1062.jpg" alt="Plato de sushi" loading="lazy" /></button>
-        <button class="g-item is-extra" data-full="images/gallery/Gin-1067.jpg"><img src="images/gallery/thumbs/Gin-1067.jpg" alt="Plato de sushi" loading="lazy" /></button>
-        <button class="g-item is-extra" data-full="images/gallery/Gin-1068.jpg"><img src="images/gallery/thumbs/Gin-1068.jpg" alt="Plato de sushi" loading="lazy" /></button>
-        <button class="g-item is-extra" data-full="images/gallery/Gin-1076.jpg"><img src="images/gallery/thumbs/Gin-1076.jpg" alt="Plato de sushi" loading="lazy" /></button>
-        <button class="g-item is-extra" data-full="images/gallery/Gin-1153.jpg"><img src="images/gallery/thumbs/Gin-1153.jpg" alt="Plato de sushi" loading="lazy" /></button>
-        <button class="g-item is-extra" data-full="images/gallery/ins-pokebowl.jpg"><img src="images/gallery/thumbs/ins-pokebowl.jpg" alt="Poke bowl" loading="lazy" /></button>
-      </div>
-      <div class="center" style="margin-top:2rem">
-        <a class="btn btn--ghost" href="#gallery" id="moreBtn" data-i18n="gallery.more">Ver galería completa</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== RESERVATION ===== -->
-  <section class="section section--sand" id="reserve">
-    <div class="container">
-      <div class="center" style="margin-bottom:2.2rem">
-        <span class="eyebrow"><span class="kanji">予約</span><span data-i18n="reserve.eyebrow">Tu mesa te espera</span></span>
-        <h2 class="section-title" data-i18n="reserve.title">Reserva en segundos</h2>
-        <p class="section-lead" data-i18n="reserve.lead">Elige día, hora y número de comensales. Confirmación al instante.</p>
-      </div>
-      <p class="reserve-note" data-i18n="reserve.note">Para reservas a partir de 8 comensales, llama al <a href="tel:+34932473871">+34 932 47 38 71</a>.</p>
-      <div class="reserve-wrap">
-        <iframe id="reserve-iframe" title="Reservas SushiGin"
-          src="https://www.covermanager.com/reservation/module_restaurant/restaurante-sushigin/spanish"
-          allow="payment" frameborder="0" width="100%" loading="lazy"></iframe>
       </div>
     </div>
   </section>
@@ -215,13 +218,6 @@
       setTimeout(revealAll, 1500); // fallback if observer never fires
     } else { revealAll(); }
 
-    // reveal the rest of the gallery within the same grid (no gap opens up)
-    document.getElementById('moreBtn').addEventListener('click', function (e) {
-      e.preventDefault();
-      document.getElementById('galleryGrid').classList.add('show-all');
-      this.style.display = 'none';
-    });
-
     document.getElementById('year').textContent = new Date().getFullYear();
 
     // reservation iframe follows language
@@ -230,10 +226,35 @@
       ca: 'https://www.covermanager.com/reservation/module_restaurant/restaurante-sushigin/catalan',
       en: 'https://www.covermanager.com/reservation/module_restaurant/restaurante-sushigin/english'
     };
+
+    // menu PDF links follow language (CA falls back to ES PDF; only ES & EN PDFs exist)
+    var PDF = {
+      es: ['images/SushiGin_ES.pdf', 'images/SushiGin_ES-llevar.pdf'],
+      ca: ['images/SushiGin_ES.pdf', 'images/SushiGin_ES-llevar.pdf'],
+      en: ['images/SushiGin_EN.pdf', 'images/SushiGin_EN-llevar.pdf']
+    };
+
     document.addEventListener('langchange', function (e) {
+      var lang = e.detail.lang;
       var f = document.getElementById('reserve-iframe');
-      var url = COVER[e.detail.lang] || COVER.es;
+      var url = COVER[lang] || COVER.es;
       if (f && f.src !== url) f.src = url;
+      var p = PDF[lang] || PDF.es;
+      document.getElementById('pdf-dine').href = p[0];
+      document.getElementById('pdf-take').href = p[1];
+    });
+
+    // PDF buttons: open in a new tab (default link) AND trigger a download
+    ['pdf-dine', 'pdf-take'].forEach(function (id) {
+      document.getElementById(id).addEventListener('click', function () {
+        var url = this.getAttribute('href');
+        var a = document.createElement('a');
+        a.href = url;
+        a.download = url.split('/').pop();
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+      });
     });
   </script>
 </body>

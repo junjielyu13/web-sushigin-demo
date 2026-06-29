@@ -46,6 +46,7 @@
   "reserve.title": {"es": "Reserva en segundos", "ca": "Reserva en segons", "en": "Book in seconds"},
   "reserve.lead":  {"es": "Elige día, hora y número de comensales. Confirmación al instante.", "ca": "Tria dia, hora i nombre de comensals. Confirmació a l'instant.", "en": "Pick a day, time and party size. Instant confirmation."},
   "reserve.note":  {"es": "Para reservas a partir de 8 comensales, llama al <a href=\"tel:+34932473871\">+34 932 47 38 71</a>.", "ca": "Per a reserves a partir de 8 comensals, truca al <a href=\"tel:+34932473871\">+34 932 47 38 71</a>.", "en": "For bookings of 8 or more guests, please call <a href=\"tel:+34932473871\">+34 932 47 38 71</a>."},
+  "reserve.closed":{"es": "Festivos: 25 dic cerrado · 24 y 31 dic, solo mediodía", "ca": "Festius: 25 des tancat · 24 i 31 des, només migdia", "en": "Holidays: 25 Dec closed · 24 &amp; 31 Dec, midday only"},
 
   "footer.about":  {"es": "Restaurante japonés tipo buffet en Les Roquetes del Garraf, Barcelona. Sushi, fusión y wok, plato a plato.", "ca": "Restaurant japonès tipus buffet a Les Roquetes del Garraf, Barcelona. Sushi, fusió i wok, plat a plat.", "en": "Japanese buffet-style restaurant in Les Roquetes del Garraf, Barcelona. Sushi, fusion and wok, plate by plate."},
   "footer.contactT":{"es": "Contacto",        "ca": "Contacte",           "en": "Contact"},

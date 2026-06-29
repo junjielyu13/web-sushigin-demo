@@ -259,6 +259,8 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 .reserve-note::before { content: "ℹ"; color: var(--accent); font-weight: 700; margin-right: .5em; }
 .reserve-note a { color: var(--accent); font-weight: 700; white-space: nowrap; }
 .reserve-note a:hover { text-decoration: underline; }
+.reserve-note + .reserve-note { margin-top: -.6rem; }
+.reserve-note--holiday::before { content: "📅"; margin-right: .45em; }
 @media (max-width: 600px) { .reserve-note { border-radius: var(--radius); } }
 .reserve-wrap { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: clamp(1rem, 3vw, 2rem); box-shadow: var(--shadow-soft); overflow: hidden; }
 /* fixed height (no auto-resizer): the CoverManager resizer over-reported height
